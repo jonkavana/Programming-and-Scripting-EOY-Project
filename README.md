@@ -10,7 +10,6 @@ The aim of this project is to provide an analytical oversight of Fisher's Iris d
 i retrieved the link for my data set from [Kaggle](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "Kaggle")
 
 
-
 As part of this project we are seeking to understand and appreciate what is that researchers are drawn to this data set
 
 
@@ -19,10 +18,20 @@ As part of this project we are seeking to understand and appreciate what is that
 
 
 
-**Bibliography**
+
+
+
+
+
+
+
+
+
+# Bibliography
 ====
-Markdown Research:
-review of how to format a markdown file: https://www.markdownguide.org/getting-started/
+## **Markdown Research**:
+
+Rview of how to format a markdown file: https://www.markdownguide.org/getting-started/
 
 Markdown Syntax: https://guides.github.com/features/mastering-markdown/
 
@@ -35,7 +44,7 @@ Further syntax information: https://daringfireball.net/projects/markdown/syntax#
 further information link: https://guides.github.com/features/mastering-markdown/
 
 
-Fishers DataSet: 
+## **Fishers DataSet**: 
 
 Kaggle data set file location : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
 
