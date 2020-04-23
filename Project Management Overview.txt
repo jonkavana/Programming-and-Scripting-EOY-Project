@@ -46,4 +46,5 @@ Project Breakdown:
         10) Overview of git and how to structure a project file / folder
         11) Review of the standards and principles that are considered best practise for a markdown file
             11.1) Review of the pseudo styling as spoken about it in the video.
-            11.2) Open up the read.md file in a text editor.
+            11.2) Open up the read.md file in a text editor and test to see how changes in the indentation will look once the y have been pused to github repository.
+        12) Need to review how to display pdf in VS Code or remove file. 
