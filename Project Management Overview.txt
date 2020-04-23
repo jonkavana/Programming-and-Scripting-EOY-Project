@@ -27,7 +27,9 @@ Project Breakdown:
 
     Section B) Expected Output:
         4) Research from the information about Fishers data set are to be commited to the READ.md file
-        5) Download the date and add it to the repository
+        5) Download the date
+            5.1) Add it to the repository
+            5.2) Reference to Activity 1
         6) Write an analysis called analysis.py, which contains:
             6.1) Output of each variable to a single text file
             6.2) Saves a histogram of each variable of png file type
