@@ -1,45 +1,52 @@
-Programming-and-Scripting-EOY-Project
-
-This repository will be used for the end of year project relating to the Programming and Scripting Module of the course.
-
 The aim of this project is to provide an analytical oversight of Fisher's Iris data set
 
 
 # Analysis of Fishers Iris Data set
 
-i retrieved the link for my data set from [Kaggle](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "Kaggle")
+According to the [Encycloppaedia Brittanica](https://www.britannica.com/biography/Ronald-Aylmer-Fisher "Encycloppaedia Brittanica") Sir Ronald Fisher was British statistician, most commonly know for his development of statistical procedures. Fisher graduated from Cambridge in 1912, being awarded a B.A. in astronomy, primarily focusing on the mathematical components of the discipline.
 
 
-As part of this project we are seeking to understand and appreciate what is that researchers are drawn to this data set
+In 1936, he published, what would become one of his most cited works, entitled "The use of multiple measurements in taxonomic problems", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). 
 
 
-The first instance of the fisher data set is spoken about in the material of the proeject overview, as detailed by [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI"), such that there are a number of characteristics highlighted by the reserach. According to this site, the data set itself is a multivariate data set. There are 150 observations within the data set as well as four variables. These are all assumoptions that we will base our analysis from. However, it is prudent to note that these assumptions have yet to be validated, so no conclusion will be drawn as of yet. 
+According to the website [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of characteristics highlighted by the reserach undertaken by Fisher.
 
 
 |Caracteristics| Instances| Attributes|
 |--------------|----------|-----------|
-|Multvariate   |    150   |     4      |
+|Multvariate  |    150   |     4      |
 
-Multivariate analysis in data sets refers to the number of variables that are under examination. In this case, we have been informed of four attributes. The fours attributes are the measurements taken from the 150 instances. 
 
-These are listed as: 
+According to UCI, the data set itself is a multivariate data set.
+Multivariate analysis in data sets refers to the number of variables that are under examination. 
+
+There are also four attributes highlighted by site. The four attributes are the measurements taken from the 150 instances recorded. These are listed as: 
  - Sepal Length
  - Sepal Width
  - Petal Length
  - Petal Width
 
-The first publshed work for this data set was called "The use of multiple measurements in taxonomic problems" and was publihsed in 1936, retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). 
-Taking inspiration from research that was linked to the mandible, lower jaw, as well as data trend analysis on the cranial measurement, Fisher sought to apply this research to taxonomy. Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/dictionary/taxonomy "Merriam-Webster") is the "general principles of scientific classification" as they apply to flowers.
+Taking inspiration from research other areas of study, such as the anatomy and physiology, including reviews of the  developement of the mandible (lower jaw), as well as the cranial measurement, Fisher sought to apply this research to taxonomy [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). This work also harnassed the concept of "linear funcitons of the measurements by which the populations are best discriminate". 
 
-From the outset, Fisher is approaching the analysis of the differences between Iris types from a mathematical perspective. There are only two noted sepcied under consideration, the Iris Setosa and Iris Versicolor. 
+To provide greater clarity on the work he underrtook, Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/dictionary/taxonomy "Merriam-Webster") is the "general principles of scientific classification" as they apply to flowers. We can see that this is the highest point at which the two disciplines are merging, mathematical principles and classification of flowers. 
 
-![Iris Petals](need to find a link for the image.)
+From the outset, Fisher is approaching the analysis of the differences between Iris types from a mathematical perspective. It is clear to see that Fisher s developing on some of the foundational worl as undertaken in Cambridge.
+According to the 'Arithmetical Procedure' aspect of the paper, there were only two species taken from the first set of Iris, that is the Iris Setosa and the Iris Versicolor.
+The third Iris, is not taken from the same colony, the scope of the research appears to be focused on the first 100 instances before widening the lens to include the versicolor.
+
+![Iris](https://www.google.com/search?q=iris+flowers&sxsrf=ALeKk02UbPO5QuAvq8BWKAIgaYIjIE5Hzg:1587668466629&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjexOX3nf_oAhUNThUIHaeRB6EQ_AUoAXoECBkQAw&biw=1368&bih=770#imgrc=fgWhk-3eoIuTwM)
 
 
 
+distinguishable on te non linear branching component
+linear discriminant model - needs to be reviewed.
+cluster analysis
+pivot to machine learning 
+
+I retrieved the link for my data set from [Kaggle](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "Kaggle")
 
 
-
+As part of this project we are seeking to understand and appreciate what is that researchers are drawn to this data set
 
 
 
@@ -70,6 +77,8 @@ further information link: https://guides.github.com/features/mastering-markdown/
 
 Kaggle data set file location : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
 Wiley Online Library: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
+
 taxonomy definiton https://www.merriam-webster.com/dictionary/taxonomy
 
+Biography of Fisher: https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 
