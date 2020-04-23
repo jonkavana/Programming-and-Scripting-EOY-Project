@@ -6,3 +6,28 @@ This is the intnded approach of the project, but it will be reviesed on an going
 
 The first Breakdown will be in relaition to the problem set that has been detailed on the GMIT Site. 
 
+On reading the information that is contained in the project there are a number of areas that need to be reivewied
+
+Project Statement:
+Breakdown of each area under consideration:
+    Fishers Data Set
+        1) Find a data set that contains the original clean copy of the data set.
+        2) Perform a research of the data set and why it is under analysis
+        3) Code, using the data set a numnber of pieces of scrit to extract vlaue from the data set
+
+    Expected Output:
+        4) Research from the information about Fishers data set are to be commited to the READ.md file
+        5) Download the date and add it to the repository
+        6) Write an analysis called analysis.py, which contains:
+            6.1) Output of each variable to a single text file
+            6.2) Saves a histogram of each variable of png file type
+            6.3) Outputs a scatter plot of each pair of variables.
+            6.4) Prepare all of the above as if were to be presented, but contained in the git hub repository, specifically in relationt to the code. 
+
+    Minimum Acceptance standards breakdown per file to be submitted:
+        7) README
+            7.1) Summary of the dataset as well as the investigations into it.
+            7.2) Runbook of how to run the code from start to finish. 
+            7.3) Fill list of references for all sources for all aspects of the project.
+        8) Python Script
+        9) Summary Text File
