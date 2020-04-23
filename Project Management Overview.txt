@@ -23,6 +23,11 @@ Project Breakdown:
             1.3) Analysis
                 1.3.1)
         2) Perform a research of the data set and why it is under analysis
+            2.1) reivew of fisher biography
+            2.2) reivew of the paper and its conclusions
+            2.3) praise for the set
+            2.4) criticism of the set
+            2.5) reivew of the material and its link to the data analysis performed today.
         3) Code, using the data set a numnber of pieces of scrit to extract value and meaning from the data set
 
     Section B) Expected Output:
