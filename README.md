@@ -20,14 +20,20 @@ The first instance of the fisher data set is spoken about in the material of the
 |--------------|----------|-----------|
 |Multvariate   |    150   |     4      |
 
-Multivariate analysis in data sets refers to the number of variables that are under examination. IN this case, we have been informed of four attributes. 
+Multivariate analysis in data sets refers to the number of variables that are under examination. In this case, we have been informed of four attributes. The fours attributes are the measurements taken from the 150 instances. 
+
+These are listed as: 
+ - Sepal Length
+ - Sepal Width
+ - Petal Length
+ - Petal Width
 
 The first publshed work for this data set was called "The use of multiple measurements in taxonomic problems" and was publihsed in 1936, retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). 
 Taking inspiration from research that was linked to the mandible, lower jaw, as well as data trend analysis on the cranial measurement, Fisher sought to apply this research to taxonomy. Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/dictionary/taxonomy "Merriam-Webster") is the "general principles of scientific classification" as they apply to flowers.
 
 From the outset, Fisher is approaching the analysis of the differences between Iris types from a mathematical perspective. There are only two noted sepcied under consideration, the Iris Setosa and Iris Versicolor. 
 
-![Iris Petals](https://www.google.com/search?q=iris+flowers+setosa+and+versicolor&tbm=isch&ved=2ahUKEwiz79b_-P7oAhU4QEEAHfZMCEAQ2-cCegQIABAA&oq=iris+flowers+setosa+and+versicolor&gs_lcp=CgNpbWcQAzoCCAA6BAgAEEM6BggAEAgQHjoECAAQGFDsN1ioWWCrWmgBcAB4AIABVogBmQmSAQIyM5gBAKABAaoBC2d3cy13aXotaW1n&sclient=img&ei=N7-hXvP3AriAhbIP9pmhgAQ&bih=770&biw=1368#imgrc=Q3reYN-7J8BkYM)
+![Iris Petals](need to find a link for the image.)
 
 
 
