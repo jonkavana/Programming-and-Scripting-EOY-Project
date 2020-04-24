@@ -27,7 +27,8 @@ Project Breakdown:
             2.2) reivew of the paper and its conclusions
             2.3) praise for the set
             2.4) criticism of the set
-            2.5) reivew of the material and its link to the data analysis performed today.
+            2.5) reivew of the material and 
+            2.6) its link to the data analysis performed today.
         3) Code, using the data set a numnber of pieces of scrit to extract value and meaning from the data set
 
     Section B) Expected Output:
