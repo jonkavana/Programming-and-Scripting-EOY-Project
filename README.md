@@ -40,21 +40,35 @@ The third Iris, is not taken from the same colony, the scope of the research app
 
 ## Praise for the Literature
 
+### Introduction to the Iris Data Set
 According to the National Gardening Association, the term species, only refers to the name of the specific plant within the genus. Genus is the collective term for similar plants, according to the [National Gardening Association](https://garden.org/courseweb/course1/week3/page3.htm "NGA")
 
 To this point, the measurements that have been taken within for ths dataset are unambiguous and are distinctive to each species. From the outset there are two specific callouts of the Iris Setosa and the Iris versicolor. 
 
+From a mathematical perspective, there is a logical sequence of events that Fisher has portrayed in the linear dimensions and how they are structuerd formulically. That there are four different measurements, each with their own place in the formula. 
+
 
 ## Criticism of the literature
 
-As mentioned previously in this analysis, Fisher has mentioned from the outset that there are two specific species that have been collected, as detailed under the 'Arithmetical Procedure'. Without any mention of the third species, we are now introduced to a variation in the genus, the Iris Viriginica. This can be qute a confusing element to stumble across as there is no mentino of it until we read the table. 
+### Introduciton to the Iris FLower
+As mentioned previously in this analysis, Fisher has mentioned from the outset that there are two specific species that have been collected, as detailed under the 'Arithmetical Procedure'. Without any mention of the third species, we are now introduced to a variation in the genus, the Iris Viriginica. This can be quite a confusing element to stumble across as there is no mentino of it until we read the table. 
 
-Furthermore, there is no mention of why there is a third species as part of this paper until we reach the conclusionary stages of the paper. 
+Furthermore, there is no mention of why there is a third species as part of this paper until we reach a mcuh later stage of the paper, when all mathematic foundation is in place. That there is no mention of the Iris Virginica outside of this table, it is poorly served, with no purpose or intended relevance to be seen.
+
+
 It is at this point, in the 'Applications to the theory of Allopolyploidy' that we discover that the first two species were measured within the same natural colony, and the third was taken from somewhere else. 
 
-Fisher does address this issue with an acknowledgement of 
+Fisher does address this issue with an acknowledgement of stating that it may 'disturb the mean and their variabilities' [Wiley Online Library]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). 
+
+### Issues with the Mathematical Structure
+
+There are some concerns however, to the lay reader, such as me, that are quite conflicitng and overlooked. Fisher states "For reasons to be discussed later we shall estimate the variance of a single plant by dividing 1085.5522 by 95", which is neither a benefit to the reader, or a point that is clearly referecend at a later date. If a reader of this paper does not have a basic understanding of third level mathematics, it would quite a confusing paper, in my opinon.
+
+
 
 ## Conclusion
+
+It is probably the most important takeaway from the paper itself, that Fisher highlights the difficulty in seperating out the difference between the Iris Virginica and the Iris Versicolor. The inability to distnguish the two apart can not be based solely, he says, "on these four measurements of a single flower taken on a plant growing wild." [Fisher, 1936]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Fisher") .
 
 
 ## How has the Iris Data Set been adapted to modern literature
