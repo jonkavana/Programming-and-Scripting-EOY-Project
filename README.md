@@ -40,9 +40,19 @@ The third Iris, is not taken from the same colony, the scope of the research app
 
 ## Praise for the Literature
 
+According to the National Gardening Association, the term species, only refers to the name of the specific plant within the genus. Genus is the collective term for similar plants, according to the [National Gardening Association](https://garden.org/courseweb/course1/week3/page3.htm "NGA")
+
+To this point, the measurements that have been taken within for ths dataset are unambiguous and are distinctive to each species. From the outset there are two specific callouts of the Iris Setosa and the Iris versicolor. 
+
 
 ## Criticism of the literature
 
+As mentioned previously in this analysis, Fisher has mentioned from the outset that there are two specific species that have been collected, as detailed under the 'Arithmetical Procedure'. Without any mention of the third species, we are now introduced to a variation in the genus, the Iris Viriginica. This can be qute a confusing element to stumble across as there is no mentino of it until we read the table. 
+
+Furthermore, there is no mention of why there is a third species as part of this paper until we reach the conclusionary stages of the paper. 
+It is at this point, in the 'Applications to the theory of Allopolyploidy' that we discover that the first two species were measured within the same natural colony, and the third was taken from somewhere else. 
+
+Fisher does address this issue with an acknowledgement of 
 
 ## Conclusion
 
