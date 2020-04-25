@@ -21,7 +21,7 @@ Project Breakdown:
             1.1) Data set has been found
             1.2) Test to read in csv file
             1.3) Analysis
-                1.3.1)
+                1.3.1) reference to Section B Task 6
         2) Perform a research of the data set and why it is under analysis
             2.1) reivew of fisher biography
             2.2) reivew of the paper and its conclusions
@@ -33,9 +33,9 @@ Project Breakdown:
 
     Section B) Expected Output:
         4) Research from the information about Fishers data set are to be commited to the READ.md file
-        5) Download the date
+        5) Download the data 
             5.1) Add it to the repository
-            5.2) Reference to Activity 1
+                5.1.1) Reference to Activity 1
         6) Write an analysis called analysis.py, which contains:
             6.1) Output of each variable to a single text file
             6.2) Saves a histogram of each variable of png file type
@@ -51,8 +51,8 @@ Project Breakdown:
         9) Summary Text File
 
     Section D) Skills / Knowledge Gap:
-        10) Overview of git and how to structure a project file / folder
-        11) Review of the standards and principles that are considered best practise for a markdown file
-            11.1) Review of the pseudo styling as spoken about it in the video.
-            11.2) Open up the read.md file in a text editor and test to see how changes in the indentation will look once the y have been pused to github repository.
-        12) Need to review how to display pdf in VS Code or remove file. 
+        10) Overview of git and how to structure a project file / folder -  completed
+        11) Review of the standards and principles that are considered best practise for a markdown file - completed. 
+            11.1) Review of the pseudo styling as spoken about it in the video. - completed
+            11.2) Open up the read.md file in a text editor and test to see how changes in the indentation will look once the y have been pused to github repository. - completed
+        12) Need to review how to display pdf in VS Code or remove file. - completed
