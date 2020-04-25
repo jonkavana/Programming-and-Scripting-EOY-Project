@@ -91,6 +91,7 @@ As part of this project we are seeking to understand and appreciate what is that
 # Runbook for Iris Python Code
 
 
+
 # Bibliography
 
 ## **Markdown Research**:
@@ -118,3 +119,9 @@ taxonomy definiton https://www.merriam-webster.com/dictionary/taxonomy
 Biography of Fisher: https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 
 Multivariate explanation https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis
+
+## **Skills / Knowledge Gap**
+
+As reference material for how to structure a project for use in git, i have utilised teh following documentaiton : 
+https://help.github.com/en/github/managing-your-work-on-github
+
