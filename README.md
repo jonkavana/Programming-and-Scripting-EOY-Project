@@ -1,52 +1,52 @@
 The aim of this project is to provide an analytical oversight of Fisher's Iris data set
 
-
 # Analysis of Fishers Iris Data set
 
-## Overview of the Paper
+## Overview of the Paper and its author
 
-According to the [Encyclopaedia Brittanica](https://www.britannica.com/biography/Ronald-Aylmer-Fisher "Encyclopaedia Brittanica") Sir Ronald Fisher was a British statistician, most commonly known for his development of statistical procedures. Fisher graduated from Cambridge in 1912, being awarded a B.A. in astronomy, primarily focusing on the mathematical components of the discipline.
+According to the [Encyclopaedia Brittanica](https://www.britannica.com/biography/Ronald-Aylmer-Fisher "Encyclopaedia Brittanica") Sir Ronald Fisher was a British statistician, most commonly known for his development of statistical procedures. Fisher graduated from Cambridge in 1912, being awarded a B.A. in astronomy, which amongst other aspeccts, focused on the mathematical components of the discipline.
 
 
 In 1936, he published, what would become one of his most cited works, entitled "The use of multiple measurements in taxonomic problems", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). 
 
 
-Before undertaking any primary analysis,there are some observations that can be taken from the material ahead of time. According to the website [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects highlighted by the reserach undertaken by Fisher. Such as:
+Before undertaking any detailed primary or secondary analysis,there are some high level observations that can be taken from the material ahead of time. 
 
+According to the website [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects highlighted by the reserach undertaken by Fisher, suhc as characteristics, instances and attributes. It is in the review that the claim of four attributes are to be found, but for the purposes of this research, based on observing the date, there are five. This is also the case according to the data set review by [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd)).
 
-|Caracteristics| Instances| Attributes|
-|--------------|----------|-----------|
-|Multvariate  |    150   |     4      |
+|Characteristics| Instances| Attributes|
+|---------------|----------|-----------|
+| Multivariate  |    150   |     5     | 
 
-
-According to UCI, the data set itself is a multivariate data set. Multivariate analysis in data sets refers to the number of variables that are under examination. According to [ScienceDirect](https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis "ScienceDirect") is the experimentation of multiple measurements on an experimental unit, for which the relationship between the units are important.
+According to UCI, the data set itself is a multivariate data set. Multivariate analysis in data sets refers to the number of variables that are under examination. According to [ScienceDirect](https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis "ScienceDirect") it is the experimentation of multiple measurements on an experimental unit, for which the relationship between the units are important. This is of importnace as Fisher was experimenting on data, where there the Iris is the colllective, and specific sub sect of this is the Setosa, Virginica and Versicolor. This will be dealt with in the later stages of this analysis.
 
 There are also four attributes highlighted by site. The four attributes are the measurements taken from the 150 instances recorded. These are listed as: 
  - Sepal Length
  - Sepal Width
  - Petal Length
  - Petal Width
+ - Classs (Species)
 
-Sepal, by way of distinction to a petal, is the outermost part of the Iris flower. Whereas in the structure of the Iris, the petal is to be found inside the flower, according [Biology Dictionary](https://biologydictionary.net/sepal/ "Biology Dictionary")
+Sepal, by way of distinction to a petal, is the outermost part of the Iris flower. Whereas in the structure of the Iris, the petal is to be found inside the flower, according [Biology Dictionary](https://biologydictionary.net/sepal/ "Biology Dictionary"). These are important attriubtes to focus on, as they allow for a clear pattern for distinguishing between the different types of Iris.
 
-Taking inspiration from research other areas of study, such as the anatomy and physiology, including reviews of the  developement of the mandible (lower jaw), as well as the cranial measurement, Fisher sought to apply this research to taxonomy [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). This work also harnassed the concept of "linear funcitons of the measurements by which the populations are best discriminate". 
+Fisher took inspiration from research of the anatomy and physiology. This inlcued reviews of the developement of the mandible (lower jaw) by Mr. E. Smith as well as the cranial measurement by Mildred Barnard. 
 
-To provide greater clarity on the work he underrtook, Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/dictionary/taxonomy "Merriam-Webster") is the "general principles of scientific classification" as they apply to flowers. We can see that this is the highest point at which the two disciplines are merging, mathematical principles and classification of flowers. 
 
-From the outset, Fisher is approaching the analysis of the differences between Iris types from a mathematical perspective. It is clear to see that Fisher s developing on some of the foundational worl as undertaken in Cambridge.
-According to the 'Arithmetical Procedure' aspect of the paper, there were only two species taken from the first set of Iris, that is the Iris Setosa and the Iris Versicolor.
-The third Iris, is not taken from the same colony, the scope of the research appears to be focused on the first 100 instances before widening the lens to include the versicolor.
+Fisher sought to apply this concept to taxonomy [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library") by way of measuring teh difference in Iris Flowers. Approaching it with his background in mathematics in focus, his work also harnassed the concept of "linear funcitons of the measurements by which the populations are best discriminate". 
 
+Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/dictionary/taxonomy "Merriam-Webster") is the "general principles of scientific classification" as they apply to flowers. We can see that this is the highest point at which the two disciplines are merging, mathematical concepts and the classification of flowers. 
 
 ## Praise for the Literature
 
-### Introduction to the Iris Data Set
+### An Introduction to the Iris Data Set
 According to the National Gardening Association, the term species, only refers to the name of the specific plant within the genus. Genus is the collective term for similar plants, according to the [National Gardening Association](https://garden.org/courseweb/course1/week3/page3.htm "NGA")
 
 To this point, the measurements that have been taken within for ths dataset are unambiguous and are distinctive to each species. From the outset there are two specific callouts of the Iris Setosa and the Iris versicolor. 
 
 From a mathematical perspective, there is a logical sequence of events that Fisher has portrayed in the linear dimensions and how they are structuerd formulically. That there are four different measurements, each with their own place in the formula. 
 
+According to the 'Arithmetical Procedure' aspect of the paper, there were only two species taken from the first set of Iris, that is the Iris Setosa and the Iris Versicolor.
+The third Iris, is not taken from the same colony, the scope of the research appears to be focused on the first 100 instances before widening the lens to include the versicolor.
 
 ## Criticism of the literature
 
