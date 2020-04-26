@@ -7,7 +7,9 @@ The aim of this project is to provide an analytical oversight of Fisher's Iris d
 According to the [Encyclopaedia Brittanica](https://www.britannica.com/biography/Ronald-Aylmer-Fisher "Encyclopaedia Brittanica") Sir Ronald Fisher was a British statistician, most commonly known for his development of statistical procedures. Fisher graduated from Cambridge in 1912, being awarded a B.A. in astronomy, which amongst other aspeccts, focused on the mathematical components of the discipline.
 
 
-In 1936, he published, what would become one of his most cited works, entitled "The use of multiple measurements in taxonomic problems", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). 
+In 1936, he published, what would become one of his most cited works, entitled "The use of multiple measurements in taxonomic problems", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library").
+
+ However, upon reviewing the material for this project, the data set is sometimes refered to as the Ansderson dataset. Accordign to Fisher himserlf, [Wiley Online Library]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library") Dr. Anderson is the man who performed the recording of the measurements on the Iris species. 
 
 
 Before undertaking any detailed primary or secondary analysis,there are some high level observations that can be taken from the material ahead of time. 
@@ -73,6 +75,11 @@ It is probably the most important takeaway from the paper itself, that Fisher hi
 
 ## How has the Iris Data Set been adapted to modern literature
 
+Upon  starting this research into the Fisher Iris Data Set, one of the common links to be returned was in the area of Machine Learning. Machine learning, according to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") is the process of taking data as well as machine learned algorithms and using the two of them together to find and apply patterns in the data. 
+
+The Iris Data Set, as been used with the Support Vector Machine by Ritvik Raj, in order to extract meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract vlaue and makes for fascinating read in another area of study.
+
+## Further research to be conducted
 distinguishable on te non linear branching component
 linear discriminant model - needs to be reviewed.
 cluster analysis
@@ -119,6 +126,11 @@ taxonomy definiton https://www.merriam-webster.com/dictionary/taxonomy
 Biography of Fisher: https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 
 Multivariate explanation https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis
+
+## Applications to wider ##
+
+SVM Analysis - https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
+
 
 ## **Skills / Knowledge Gap**
 
