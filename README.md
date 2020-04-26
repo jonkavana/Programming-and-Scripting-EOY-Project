@@ -77,7 +77,9 @@ It is probably the most important takeaway from the paper itself, that Fisher hi
 
 Upon  starting this research into the Fisher Iris Data Set, one of the common links to be returned was in the area of Machine Learning. Machine learning, according to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") is the process of taking data as well as machine learned algorithms and using the two of them together to find and apply patterns in the data. 
 
-The Iris Data Set, as been used with the Support Vector Machine by Ritvik Raj, in order to extract meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract vlaue and makes for fascinating read in another area of study.
+The Iris Data Set, has been used with the Support Vector Machine by Ritvik Raj, in order to extract meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract vlaue and makes for fascinating read in another area of study.
+
+It is a testament to the quality of the research that more than eighty years later, the mathematical principles that Fisher recorded are still in use and being applied to new areas of research. 
 
 ## Further research to be conducted
 distinguishable on te non linear branching component
