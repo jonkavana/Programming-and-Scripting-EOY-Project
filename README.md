@@ -14,7 +14,7 @@ In 1936, he published, what would become one of his most cited works, entitled "
 
 Before undertaking any detailed primary or secondary analysis,there are some high level observations that can be taken from the material ahead of time. 
 
-According to the website [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects highlighted by the reserach undertaken by Fisher, suhc as characteristics, instances and attributes. It is in the review that the claim of four attributes are to be found, but for the purposes of this research, based on observing the date, there are five. This is also the case according to the data set review by [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd)).
+According to the website [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects highlighted by the reserach undertaken by Fisher, suhc as characteristics, instances and attributes. It is in the review that the claim of four attributes are to be found, but for the purposes of this research, based on observing the date, there are five. This is also the case according to the data set review by [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd")).
 
 |Characteristics| Instances| Attributes|
 |---------------|----------|-----------|
