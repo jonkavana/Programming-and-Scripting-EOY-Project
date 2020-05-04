@@ -1,6 +1,6 @@
 # An Analysis of Fishers Iris Data set
 
-## Ronald Fisher & his Iris data set
+## Ronald Fisher & the Iris Data Set
 
 According to the [Encyclopaedia Brittanica](https://www.britannica.com/biography/Ronald-Aylmer-Fisher "Encyclopaedia Brittanica") Sir Ronald Fisher was a British statistician,  commonly known for his development of statistical procedures. Fisher graduated from Cambridge in 1912, being awarded a B.A. in astronomy, which amongst other aspects, focused on the mathematical components of the discipline.
 
@@ -94,6 +94,38 @@ The Iris Data Set, has been used with the Support Vector Machine by Ritvik Raj, 
 In the area of machine learnign, there is a model known as Gradient Boosting. it is used in teh classfification of data, according to [Cindy Wang](https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/ "Cindy Wang") on the SAS blog forum. It is, according to Wang, a introductory overview of visual data mining as well as maine learning product being leveraged, whilst using Fisher's data set to show its capability.
 
 The data set has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped, however loosely on the brain. The purpose of neeural networking to develop and recognize patterns. It is alos used to cluster and aid with the classification, per the same source. We can see that the Fisher Data Set has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle").
+
+
+# Analysis of teh data from Python
+
+![]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Further research to be conducted
