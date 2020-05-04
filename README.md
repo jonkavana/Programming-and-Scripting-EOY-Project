@@ -83,14 +83,18 @@ It is probably the most important takeaway from the paper itself, that Fisher hi
 
 One of the my biggest takeaways from this data set is its ability to stand above scrutiny over such a period of time. THe data set has adapted from a research into distinguishing species in the world of taxonomy, to being an important milestone in data clustering, as well Machine Learning. 
 
+It is a testament to the quality of the research that more than eighty years later, the mathematical principles that Fisher recorded are still in use and being applied to new areas of research. 
 
 ### How has the Iris Data Set been adapted to modern literature
 
-Upon  starting this research into the Fisher Iris Data Set, one of the common links to be returned was in the area of Machine Learning. Machine learning, according to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") is the process of taking data as well as machine learned algorithms and using the two of them together to find and apply patterns in the data. 
+Upon  starting this research into the Fisher Iris Data Set, one of the common links to be returned was in the area of Machine Learning. Machine Learning, according to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") is the process of taking data as well as machine learned algorithms and using the two of them together to find and apply patterns in the data. 
 
-The Iris Data Set, has been used with the Support Vector Machine by Ritvik Raj, in order to extract meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract vlaue and makes for fascinating read in another area of study.
+The Iris Data Set, has been used with the Support Vector Machine by Ritvik Raj, in order to extract meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract value and makes for fascinating read in this area of study.
 
-It is a testament to the quality of the research that more than eighty years later, the mathematical principles that Fisher recorded are still in use and being applied to new areas of research. 
+In the area of machine learnign, there is a model known as Gradient Boosting. it is used in teh classfification of data, according to [Cindy Wang](https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/ "Cindy Wang") on the SAS blog forum. It is, according to Wang, a introductory overview of visual data mining as well as maine learning product being leveraged, whilst using Fisher's data set to show its capability.
+
+The data set has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped, however loosely on the brain. The purpose of neeural networking to develop and recognize patterns. It is alos used to cluster and aid with the classification, per the same source. We can see that the Fisher Data Set has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle").
+
 
 ## Further research to be conducted
 distinguishable on te non linear branching component
@@ -98,17 +102,16 @@ linear discriminant model - needs to be reviewed.
 cluster analysis
 pivot to machine learning 
 
-I retrieved the link for my data set from [Kaggle](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "Kaggle")
-
-
-As part of this project we are seeking to understand and appreciate what is that researchers are drawn to this data set
-
-
-
-
 
 
 # Runbook for Iris Python Code
+According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook/ "Stepshot") there are some key callouts that needs to be adhered to when creating a runbook. Given the scale of our analysis, we may need to hit on every marker, but nevertheless, we will try to provide as much structure as possible for readability purposes. 
+
+ - Overview of Process
+ - Software to be downloaded / required
+ - Data Import Source
+ - How to run the program from end to end. 
+
 
 
 
@@ -131,6 +134,9 @@ further information link: https://guides.github.com/features/mastering-markdown/
 
 ## **Fishers DataSet**: 
 
+I retrieved the link for my data set from [Kaggle](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "Kaggle")
+
+
 Kaggle data set file location : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
 Wiley Online Library: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
 
@@ -146,10 +152,16 @@ Review of the Iris Data Set https://towardsdatascience.com/the-iris-dataset-a-li
 ## Applications to wider ##
 
 SVM Analysis - https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
+SAS - https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/
+David JOy - https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution
+Kaggle -m https://www.kaggle.com/
 
 
 ## **Skills / Knowledge Gap**
 
 As reference material for how to structure a project for use in git, i have utilised teh following documentaiton : 
 https://help.github.com/en/github/managing-your-work-on-github
+
+Performing a Runbook checklist https://stepshot.net/how-to-create-a-runbook/
+
 
