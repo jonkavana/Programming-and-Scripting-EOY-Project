@@ -1,20 +1,18 @@
-The aim of this project is to provide an analytical oversight of Fisher's Iris data set
+# An Analysis of Fishers Iris Data set
 
-# Analysis of Fishers Iris Data set
+## Ronald Fisher & his Iris data set
 
-## Overview of the Paper and its author
-
-According to the [Encyclopaedia Brittanica](https://www.britannica.com/biography/Ronald-Aylmer-Fisher "Encyclopaedia Brittanica") Sir Ronald Fisher was a British statistician, most commonly known for his development of statistical procedures. Fisher graduated from Cambridge in 1912, being awarded a B.A. in astronomy, which amongst other aspeccts, focused on the mathematical components of the discipline.
+According to the [Encyclopaedia Brittanica](https://www.britannica.com/biography/Ronald-Aylmer-Fisher "Encyclopaedia Brittanica") Sir Ronald Fisher was a British statistician,  commonly known for his development of statistical procedures. Fisher graduated from Cambridge in 1912, being awarded a B.A. in astronomy, which amongst other aspects, focused on the mathematical components of the discipline.
 
 
-In 1936, he published, what would become one of his most cited works, entitled "The use of multiple measurements in taxonomic problems", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library").
+In 1936, he published, the work that we are analysing in this poject entitled "The use of multiple measurements in taxonomic problems", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library").
 
- However, upon reviewing the material for this project, the data set is sometimes refered to as the Ansderson dataset. Accordign to Fisher himserlf, [Wiley Online Library]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library") Dr. Anderson is the man who performed the recording of the measurements on the Iris species. 
+ However, it was only upon reading the paper and researching it further that it had become clear that the data set is sometimes refered to as the Ansderson data set. According to Fisher himserlf, [Wiley Online Library]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library") Dr. Anderson is the man who performed all of the recording of the measurements on the Iris species. It was Fisher who performed the analysis on these individual instances.
 
 
 Before undertaking any detailed primary or secondary analysis,there are some high level observations that can be taken from the material ahead of time. 
 
-According to the website [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects highlighted by the reserach undertaken by Fisher, suhc as characteristics, instances and attributes. It is in the review that the claim of four attributes are to be found, but for the purposes of this research, based on observing the date, there are five. This is also the case according to the data set review by [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd")).
+According to the [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects highlighted by the reserach undertaken by Fisher, such as characteristics, instances and attributes. It is in this review that the claim of four attributes are to be found. From reading other material and for the purposes of this research, based on observing the date, there are actually five. This is also the case according to the data set review by [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd"). This fifth attribute is the Iris genus, the collection of all Iris sub-species.
 
 |Characteristics| Instances| Attributes|
 |---------------|----------|-----------|
