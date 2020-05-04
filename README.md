@@ -46,9 +46,9 @@ Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/diction
 To fully appreciate the paper, there is a requirement have an understanding for the reoccuring language within the paper, namely 'specied'and 'genus'.
 According to the National Gardening Association, the term species, can only refer to the name of the specific plant within the genus. Genus is the collective term for similar plants, according to the [National Gardening Association](https://garden.org/courseweb/course1/week3/page3.htm "NGA")
 
-The measurements taken by Anderson and analysed by Fisher, within this dataset are unambiguous and are distinctive to each species. This unambiguous factor is so crucial as it allows for less and less scrutiny of the data. From the outset of the paper, there are two specific callouts of the Iris Setosa and the Iris versicolor. 
+The measurements taken by Anderson and subsequently analysed by Fisher, within this dataset are unambiguous and are distinctive to each species. This unambiguous factor is so crucial as it allows for less and less scrutiny of the data.
 
-From a mathematical perspective, there is a logical sequence of events that Fisher has portrayed in the linear dimensions and how they are structuerd formulically. That there are four different measurements, each with their own place in the formula. 
+From a mathematical perspective, there is a logical sequence of events that Fisher has portrayed in the linear dimensions and how they are structuerd formulically. That there are four different measurements, each with their own place in the formula is a positive movement as it caters for each of the attributes of Speal Length & Width, as well as Petal Length & Width. 
 
 According to the 'Arithmetical Procedure' aspect of the paper, there were only two species taken from the first set of Iris, that is the Iris Setosa and the Iris Versicolor.
 The third Iris, is not taken from the same colony, the scope of the research appears to be focused on the first 100 instances before widening the lens to include the versicolor.
