@@ -27,6 +27,34 @@ IrisData = pandas.read_csv('IRIS.csv')
 # print(c)
 # this will allow us to view the individual names of each iris
 
-df = sns.load_dataset('iris')
-sns.boxplot(x = df["species"], y = df["sepal_length"])
+# df = sns.load_dataset('iris')
+# sns.boxplot(x = df["species"], y = df["sepal_length"])
+# plt.title('Compare of the three Sepal Lengths')
+# plt.xlabel('Difference in the Species')
+# plt.ylabel('Sepal Length')
+# plt.show()
+# plt.savefig()
+# this will allow us to see the first sbox plot of all three species based on sepal length. 
 
+# df = sns.load_dataset('iris')
+# sns.boxplot(x = df["species"], y = df["sepal_width"])
+# plt.title('Compare of the three Sepal Widths')
+# plt.xlabel('Difference in the Species')
+# plt.ylabel('Sepal Width')
+# plt.show()
+
+
+#df = sns.load_dataset('iris')
+#sns.boxplot(x = df["species"], y = df["petal_length"])
+#plt.title('Compare the three Petal Lengths')
+#plt.xlabel('Difference in the Species')
+#plt.ylabel('Petal Length')
+#plt.show()
+
+
+df = sns.load_dataset('iris')
+sns.boxplot(x = df["species"], y = df["petal_width"])
+plt.title('Compare the three Petal Widths')
+plt.xlabel('Difference in the Species')
+plt.ylabel('Petal Width')
+plt.show()
