@@ -16,6 +16,10 @@ IrisData = pandas.read_csv('IRIS.csv')
 # print(a(10))
 # this will provide a cursory glance at he material from the first 10 rows of data.
 
-z = IrisData.describe
-print(z())
+# b = IrisData.describe
+# print(b())
+# this has printed to the terminal the overall description of the data set
+
+c = (IrisData.groupby('species').size())
+print(c)
 
