@@ -96,9 +96,12 @@ In the area of machine learnign, there is a model known as Gradient Boosting. it
 The data set has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped, however loosely on the brain. The purpose of neeural networking to develop and recognize patterns. It is alos used to cluster and aid with the classification, per the same source. We can see that the Fisher Data Set has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle").
 
 
-# Analysis of teh data from Python
+# Analysis of the data from Python
 
-![]()
+![Overview of the dataset](./Describe.PNG)
+
+As we can see from the information extracted from the data set, there are four variables that are to be analysed, namley "Sepal Lenght", "Sepal Width", "Petal Lenght", "Petal Width". We can see that there is a considerable difference in the mean between the Speal Length and the Petal Length on average. This logically stands to reason, as previously mentioned, the Sepal is the outer cover of the plant, so it would cover more surface area. 
+
 
 
 
