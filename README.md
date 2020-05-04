@@ -12,24 +12,28 @@ In 1936, he published, the work that we are analysing in this poject entitled "T
 
 Before undertaking any detailed primary or secondary analysis,there are some high level observations that can be taken from the material ahead of time. 
 
-According to the [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects highlighted by the reserach undertaken by Fisher, such as characteristics, instances and attributes. It is in this review that the claim of four attributes are to be found. From reading other material and for the purposes of this research, based on observing the date, there are actually five. This is also the case according to the data set review by [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd"). This fifth attribute is the Iris genus, the collection of all Iris sub-species.
+According to the [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects to be highlighted by the reserach undertaken by Fisher, such as characteristics, instances and attributes. It is in this review that the claim of four attributes is to be found. From reading other material and for the purposes of this research, based on observing the date, there are actually five. This is also the case according to the data set review by [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd"). This fifth attribute is the Iris genus, the collection of all Iris sub-species. Below is a table of a very high level view of this information.
 
 |Characteristics| Instances| Attributes|
 |---------------|----------|-----------|
 | Multivariate  |    150   |     5     | 
 
-According to UCI, the data set itself is a multivariate data set. Multivariate analysis in data sets refers to the number of variables that are under examination. According to [ScienceDirect](https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis "ScienceDirect") it is the experimentation of multiple measurements on an experimental unit, for which the relationship between the units are important. This is of importnace as Fisher was experimenting on data, where there the Iris is the colllective, and specific sub sect of this is the Setosa, Virginica and Versicolor. This will be dealt with in the later stages of this analysis.
+According to UCI, the data set itself is a multivariate data set.I this context and with respect to data, multivariate analysis in data sets refers to the number of variables that are under examination. According to [ScienceDirect](https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis "ScienceDirect") it is the experimentation of multiple measurements on an experimental unit, for which the relationship between the units are important. This is the scientific component to the name of the paper, where multiple meaasurements are explicitly referenced.
 
-There are also four attributes highlighted by site. The four attributes are the measurements taken from the 150 instances recorded. These are listed as: 
+In terms of the Taxonomy, this is of importnace as Fisher was experimenting on data, where there the Iris is the colllective, and specific sub sect of this is the Setosa, Virginica and Versicolor. This will be dealt with in the later stages of this analysis.
+
+The five attributes highlighted on the site Kaggle by[MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd"). The first four attributes are the measurements taken from the 150 instances recorded, with the fifth being the type of Iris.
+
+These are listed as: 
  - Sepal Length
  - Sepal Width
  - Petal Length
  - Petal Width
  - Classs (Species)
 
-Sepal, by way of distinction to a petal, is the outermost part of the Iris flower. Whereas in the structure of the Iris, the petal is to be found inside the flower, according [Biology Dictionary](https://biologydictionary.net/sepal/ "Biology Dictionary"). These are important attriubtes to focus on, as they allow for a clear pattern for distinguishing between the different types of Iris.
+Sepal, by way of distinction to a petal, is the outermost part of the Iris flower according [Biology Dictionary](https://biologydictionary.net/sepal/ "Biology Dictionary"). This is important attriubtes to focus on, as they allow for a clear pattern for distinguishing between the different types of Iris. The variances of size as detailed by Fisher too, will show a distinguishing trend between the sepal and petal.
 
-Fisher took inspiration from research of the anatomy and physiology. This inlcued reviews of the developement of the mandible (lower jaw) by Mr. E. Smith as well as the cranial measurement by Mildred Barnard. 
+Fisher declared that he had taken inspiration from research of the anatomy and physiology. This inlcuded reviews of the developement of the mandible (lower jaw) by Mr. E. Smith as well as the cranial measurements compiledby Mildred Barnard. 
 
 
 Fisher sought to apply this concept to taxonomy [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library") by way of measuring teh difference in Iris Flowers. Approaching it with his background in mathematics in focus, his work also harnassed the concept of "linear funcitons of the measurements by which the populations are best discriminate". 
