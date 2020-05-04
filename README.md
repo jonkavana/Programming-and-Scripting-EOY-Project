@@ -58,27 +58,33 @@ Because of the ananlysis that Fisher performed, according to [Towards Science](h
 ## Criticism of the literature
 
 ### An overview to the Iris Data set
-As mentioned previously in this analysis, Fisher has mentioned from the outset that there are two specific species that have been collected, as detailed under the 'Arithmetical Procedure'. Without any mention of the third species, we are now introduced to a variation in the genus, the Iris Viriginica. This can be quite a confusing element to stumble across as there is no mentino of it until we read the table. 
+As mentioned previously in this analysis, from the outset that there are two specific species that have been collected, as detailed under the 'Arithmetical Procedure'. Without any mention of the third species, we are now introduced to a variation in the genus, the Iris Viriginica. This can be quite a confusing element to stumble across as there is no mention of it until we read the table.
 
-Furthermore, there is no mention of why there is a third species as part of this paper until we reach a mcuh later stage of the paper, when all mathematic foundation is in place. That there is no mention of the Iris Virginica outside of this table, it is poorly served, with no purpose or intended relevance to be seen.
+Furthermore, there is no mention of why there is a third species as part of this paper until we reach a much later stage of the paper. This is only done once all mathematic foundations are in place. That there is no mention of the Iris Virginica outside of this table, serves the paper, with no purpose or intended relevance to be seen. There is also no rationale provided by the author as to its ommission. 
 
 
-It is at this point, in the 'Applications to the theory of Allopolyploidy' that we discover that the first two species were measured within the same natural colony, and the third was taken from somewhere else. 
+It is at this point, in the 'Applications to the theory of Allopolyploidy' that we discover that the first two species were measured within the same natural colony, and the third was taken from somewhere else by the Dr Anderson. 
 
-Fisher does address this issue with an acknowledgement of stating that it may 'disturb the mean and their variabilities' [Wiley Online Library]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). 
+There has been a significant amount of mathematical preparation and calculation been completed before this reveal. 
+
+Fisher does address this issue, eventually, with an acknowledgement of stating that it may 'disturb the mean and their variabilities' [Wiley Online Library]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). 
 
 ### Issues with the Mathematical Structure
 
-There are some concerns however, to the lay reader, such as me, that are quite conflicitng and overlooked. Fisher states "For reasons to be discussed later we shall estimate the variance of a single plant by dividing 1085.5522 by 95", which is neither a benefit to the reader, or a point that is clearly referecend at a later date. If a reader of this paper does not have a basic understanding of third level mathematics, it would quite a confusing paper, in my opinon.
+There are some concerns, however, to the lay reader, such as me, that are quite conflicitng and overlooked.
+
+Fisher states "For reasons to be discussed later we shall estimate the variance of a single plant by dividing 1085.5522 by 95", from [Wiley Online Library]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). This I feel is neither a benefit to the reader, or a point that is clearly referecend at a later date. If a reader of this paper does not have a basic understanding of the mathematics, it adds unnecessary confusion where it is not required.
 
 
 
 ## Conclusion
 
-It is probably the most important takeaway from the paper itself, that Fisher highlights the difficulty in seperating out the difference between the Iris Virginica and the Iris Versicolor. The inability to distnguish the two apart can not be based solely, he says, "on these four measurements of a single flower taken on a plant growing wild." [Fisher, 1936]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Fisher") .
+It is probably the most important takeaway from the paper itself, that Fisher highlights the difficulty in seperating out the difference between the Iris Virginica and the Iris Versicolor. The inability to distnguish the two apart can not be based solely, he says, "on these four measurements of a single flower taken on a plant growing wild." [Fisher, 1936]( https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Fisher") . That fisher himself has recorded this opinion in the paper is signiifcant.
+
+One of the my biggest takeaways from this data set is its ability to stand above scrutiny over such a period of time. THe data set has adapted from a research into distinguishing species in the world of taxonomy, to being an important milestone in data clustering, as well Machine Learning. 
 
 
-## How has the Iris Data Set been adapted to modern literature
+### How has the Iris Data Set been adapted to modern literature
 
 Upon  starting this research into the Fisher Iris Data Set, one of the common links to be returned was in the area of Machine Learning. Machine learning, according to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") is the process of taking data as well as machine learned algorithms and using the two of them together to find and apply patterns in the data. 
 
