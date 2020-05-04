@@ -5,7 +5,7 @@ import matplotlib as plt
 
 
 IrisData = pandas.read_csv('IRIS.csv')
-print(IrisData)
+# print(IrisData)
 # this has output the full 150 instances of the data set to the terminal. 
 
 # to provide an analysis of the information within the text, we are going to extract the following from the data: 
@@ -29,5 +29,4 @@ print(IrisData)
 
 df = sns.load_dataset('iris')
 sns.boxplot(x = df["species"], y = df["sepal_length"])
-# plt.title('this')
 
