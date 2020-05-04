@@ -5,8 +5,7 @@ import matplotlib as plt
 
 
 IrisData = pandas.read_csv('IRIS.csv')
-
-# print(IrisData)
+print(IrisData)
 # this has output the full 150 instances of the data set to the terminal. 
 
 # to provide an analysis of the information within the text, we are going to extract the following from the data: 
@@ -14,11 +13,11 @@ IrisData = pandas.read_csv('IRIS.csv')
 
 # a = IrisData.head
 # print(a(10))
-# this will provide a cursory glance at he material from the first 10 rows of data.
+# this will provide a cursory glance at the material from the first 10 rows of data.
 
 # d = IrisData.tail
 # print(d(10))
-# This will provide a cursory glance at he material from the last 10 rows of data.
+# This will provide a cursory glance at the material from the last 10 rows of data.
 
 # b = IrisData.describe
 # print(b())
@@ -30,9 +29,5 @@ IrisData = pandas.read_csv('IRIS.csv')
 
 df = sns.load_dataset('iris')
 sns.boxplot(x = df["species"], y = df["sepal_length"])
-plt.title('Compare of the three Sepal Lengths')
-plt.xlabel('Difference in the Species')
-plt.ylabel('Sepal Length')
-plt.show()
-plt.savefig()
+# plt.title('this')
 
