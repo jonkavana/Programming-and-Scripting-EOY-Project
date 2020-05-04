@@ -36,7 +36,7 @@ Sepal, by way of distinction to a petal, is the outermost part of the Iris flowe
 Fisher declared that he had taken inspiration from research of the anatomy and physiology. This inlcuded reviews of the developement of the mandible (lower jaw) by Mr. E. Smith as well as the cranial measurements compiledby Mildred Barnard. 
 
 
-Fisher sought to apply this concept to taxonomy [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library") by way of measuring teh difference in Iris Flowers. Approaching it with his background in mathematics in focus, his work also harnassed the concept of "linear funcitons of the measurements by which the populations are best discriminate". 
+Fisher sought to apply this discipline to taxonomy [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library") by way of measuring the difference in Iris Flowers. Approaching it with his background in mathematics, his work also harnassed the concept of "linear funcitons of the measurements by which the populations are best discriminate". 
 
 Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/dictionary/taxonomy "Merriam-Webster") is the "general principles of scientific classification" as they apply to flowers. We can see that this is the highest point at which the two disciplines are merging, mathematical concepts and the classification of flowers. 
 
