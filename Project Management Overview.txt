@@ -36,7 +36,7 @@ Project Breakdown:
                 4.1.1) this needs to be validated to avoid duplication.
         5) Download the data 
             5.1) Add it to the repository
-                5.1.1) Reference to Activity 1
+                5.1.1) Reference to Section A - 1).
         6) Write an analysis called analysis.py, which contains:
             6.1) Output of each variable to a single text file
             6.2) Saves a histogram of each variable of png file type
