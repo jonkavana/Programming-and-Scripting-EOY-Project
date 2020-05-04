@@ -18,11 +18,21 @@ IrisData = pandas.read_csv('IRIS.csv')
 
 # d = IrisData.tail
 # print(d(10))
+# This will provide a cursory glance at he material from the last 10 rows of data.
 
 # b = IrisData.describe
 # print(b())
 # this has printed to the terminal the overall description of the data set
 
-c = (IrisData.groupby('species').size())
-print(c)
+# c = (IrisData.groupby('species').size())
+# print(c)
+# this will allow us to view the individual names of each iris
+
+df = sns.load_dataset('iris')
+sns.boxplot(x = df["species"], y = df["sepal_length"])
+plt.title('Compare of the three Sepal Lengths')
+plt.xlabel('Difference in the Species')
+plt.ylabel('Sepal Length')
+plt.show()
+plt.savefig()
 
