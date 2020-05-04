@@ -27,11 +27,13 @@ Project Breakdown:
             2.2) reivew of the paper and its conclusions
             2.3) praise for the set
             2.4) criticism of the set
-            2.5) reivew of the material and 
+            2.5) Conclusion of the paper.
             2.6) its link to the data analysis performed today.
         
     Section B) Expected Output:
         4) Research from the information about Fishers data set are to be commited to the READ.md file
+            4.1) This file in its entirety will need to be added into the read.md file.
+                4.1.1) this needs to be validated to avoid duplication.
         5) Download the data 
             5.1) Add it to the repository
                 5.1.1) Reference to Activity 1
@@ -45,6 +47,9 @@ Project Breakdown:
         7) README
             7.1) Summary of the dataset as well as the investigations into it.
             7.2) Runbook of how to run the code from start to finish. 
+                7.2.1) Full list of the library that has been used to be added into the runbook.
+                7.2.2) Data Import
+
             7.3) Fill list of references for all sources for all aspects of the project.
         8) Python Script
         9) Summary Text File
@@ -55,3 +60,4 @@ Project Breakdown:
             11.1) Review of the pseudo styling as spoken about it in the video. - completed
             11.2) Open up the read.md file in a text editor and test to see how changes in the indentation will look once the y have been pused to github repository. - completed
         12) Need to review how to display pdf in VS Code or remove file. - completed
+        13) What is a high level overview of a runbok for running the code aspect of the analysis. 
