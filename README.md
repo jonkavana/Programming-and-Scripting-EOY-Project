@@ -42,7 +42,7 @@ Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/diction
 
 ## Praise for the Literature
 
-### An Introduction to the Iris Data Set
+### An Overview to the Iris Data Set
 To fully appreciate the paper, there is a requirement have an understanding for the reoccuring language within the paper, namely 'specied'and 'genus'.
 According to the National Gardening Association, the term species, can only refer to the name of the specific plant within the genus. Genus is the collective term for similar plants, according to the [National Gardening Association](https://garden.org/courseweb/course1/week3/page3.htm "NGA")
 
@@ -53,9 +53,11 @@ From a mathematical perspective, there is a logical sequence of events that Fish
 According to the 'Arithmetical Procedure' aspect of the paper, there were only two species taken from the first set of Iris, that is the Iris Setosa and the Iris Versicolor.
 The third Iris, is not taken from the same colony, the scope of the research appears to be focused on the first 100 instances before widening the lens to include the versicolor.
 
+Because of the ananlysis that Fisher performed, according to [Towards Science](https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5 "Towards Science"), the discriminant funciton was successful in performing its function. That is, successfully distinguish between the three species.
+
 ## Criticism of the literature
 
-### Introduciton to the Iris FLower
+### An overview to the Iris Data set
 As mentioned previously in this analysis, Fisher has mentioned from the outset that there are two specific species that have been collected, as detailed under the 'Arithmetical Procedure'. Without any mention of the third species, we are now introduced to a variation in the genus, the Iris Viriginica. This can be quite a confusing element to stumble across as there is no mentino of it until we read the table. 
 
 Furthermore, there is no mention of why there is a third species as part of this paper until we reach a mcuh later stage of the paper, when all mathematic foundation is in place. That there is no mention of the Iris Virginica outside of this table, it is poorly served, with no purpose or intended relevance to be seen.
@@ -131,6 +133,9 @@ taxonomy definiton https://www.merriam-webster.com/dictionary/taxonomy
 Biography of Fisher: https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 
 Multivariate explanation https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis
+
+Review of the Iris Data Set https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
+
 
 ## Applications to wider ##
 
