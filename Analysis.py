@@ -16,6 +16,9 @@ IrisData = pandas.read_csv('IRIS.csv')
 # print(a(10))
 # this will provide a cursory glance at he material from the first 10 rows of data.
 
+# d = IrisData.tail
+# print(d(10))
+
 # b = IrisData.describe
 # print(b())
 # this has printed to the terminal the overall description of the data set
