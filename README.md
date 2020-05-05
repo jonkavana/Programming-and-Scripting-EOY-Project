@@ -130,14 +130,6 @@ As we can see ifrom teh image above, there is a difference between all three spe
 
 
 
-## Further research to be conducted
-distinguishable on te non linear branching component
-linear discriminant model - needs to be reviewed.
-cluster analysis
-pivot to machine learning 
-
-
-
 # Runbook for Iris Python Code
 According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook/ "Stepshot") there are some key callouts that needs to be adhered to when creating a runbook. Given the scale of our analysis, we may need to hit on every marker, but nevertheless, we will try to provide as much structure as possible for readability purposes. 
 
@@ -147,7 +139,9 @@ According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook
  - How to run the program from end to end. 
 
 
-
+## Further research to be conducted
+distinguishable on te non linear branching component
+linear discriminant model - needs to be reviewed.
 
 # Bibliography
 
@@ -175,11 +169,9 @@ Article Title: Iris Flower Dataset used for multi-class classification
 Website Title: www.Kaggle.com
 URL          : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
 
-
 Article Title: The use of multiple measurements in Taxonomic Problems 
 Website Title: https://onlinelibrary.wiley.com
 URL          : https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
-
 
 Article Title: Taxonomy
 Website Title: https://www.merriam-webster.com
@@ -197,23 +189,47 @@ Article Title: The Iris Dataset -  A Little Bit of History and Biology
 Website Title: https://towardsdatascience.com
 URL          : https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
 
+Article Title: Iris Data Set
+Website Title: http://archive.ics.uci.edu
+URL          : http://archive.ics.uci.edu/ml/datasets/Iris
+
+Article Title: Sepal Definition
+Website Title: https://biologydictionary.net
+URL          : https://biologydictionary.net/sepal/
+
+Article Title: National Gardening Association
+Website Title: https://garden.org
+URL          : https://garden.org/courseweb/course1/week3/page3.htm
+
+Article Title:
+Website Title:
+URL          :
+
 ## Applications to wider ##
 
-Article Title:
-Website Title:
-URL          : SVM Analysis - https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
+Article Title: Iris Dataset Analysis (Python)
+Website Title: https://rajritvikblog.wordpress.com
+URL          : https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
 
-Article Title:
-Website Title:
-URL          : SAS - https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/
+Article Title: Play with classification of Iris data using gradient boosting
+Website Title: https://blogs.sas.com
+URL          : https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/
 
-Article Title:
-Website Title:
-URL          : David JOy - https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution
+Article Title: Iris Data Set Classification using Neural Network
+Website Title: https://www.kaggle.com
+URL          : https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution
 
-Article Title:
-Website Title:
-URL          : Kaggle -m https://www.kaggle.com/
+Article Title: Kaggle 
+Website Title: https://www.kaggle.com/ 
+URL          : https://www.kaggle.com/
+
+Article Title: What is Machine Learning?
+Website Title: https://www.technologyreview.com
+URL          : https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/
+
+Article Title: A Beginner's Guide to Neural Networks and Deep Learning
+Website Title: https://pathmind.com
+URL          : https://pathmind.com/wiki/neural-network#define
 
 ## **Skills / Knowledge Gap**
 
