@@ -153,49 +153,97 @@ According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook
 
 ## **Markdown Research**:
 
-Rview of how to format a markdown file: https://www.markdownguide.org/getting-started/
+Article Title: Getting Started. An overview of MarkDown, how it works, and what you can do with it. 
+Website Title: www.markdown.org
+URL          : https://www.markdownguide.org/getting-started/
 
-Markdown Syntax: https://guides.github.com/features/mastering-markdown/
+Article Title: Mastering Markdown
+Website Title: www.guides.github.com
+URL          : https://guides.github.com/features/mastering-markdown/
 
-Information on the relationship between markdown and visual studio code: https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20cb7cbcd6f
+Article Title: How to write a readme.md file? 
+Website Title: www.medum.com
+URL          : https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20cb7cbcd6f
 
-Primary SUpport link: https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20cb7cbcd6f
-
-
-Further syntax information: https://daringfireball.net/projects/markdown/syntax#overview
-further information link: https://guides.github.com/features/mastering-markdown/
-
+Article Title: Markdown:Syntax 
+Website Title: www.daringfireball.com
+URL          : https://daringfireball.net/projects/markdown/syntax#overview
 
 ## **Fishers DataSet**: 
 
-I retrieved the link for my data set from [Kaggle](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "Kaggle")
+Article Title: Iris Flower Dataset used for multi-class classification
+Website Title: www.Kaggle.com
+URL          : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
 
 
-Kaggle data set file location : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
-Wiley Online Library: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
+Article Title: The use of multiple measurements in Taxonomic Problems 
+Website Title: https://onlinelibrary.wiley.com
+URL          : https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
 
-taxonomy definiton https://www.merriam-webster.com/dictionary/taxonomy
 
-Biography of Fisher: https://www.britannica.com/biography/Ronald-Aylmer-Fisher
+Article Title: Taxonomy
+Website Title: https://www.merriam-webster.com
+URL          : https://www.merriam-webster.com/dictionary/taxonomy
 
-Multivariate explanation https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis
+Article Title: Sir Ronald Aylmer Fisher - British Geneticist And Statistician
+Website Title: https://www.britannica.com
+URL          : https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 
-Review of the Iris Data Set https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
+Article Title: Multivariate Analysis
+Website Title: https://www.sciencedirect.com
+URL          : https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis
 
+Article Title: The Iris Dataset -  A Little Bit of History and Biology
+Website Title: https://towardsdatascience.com
+URL          : https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
 
 ## Applications to wider ##
 
-SVM Analysis - https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
-SAS - https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/
-David JOy - https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution
-Kaggle -m https://www.kaggle.com/
+Article Title:
+Website Title:
+URL          : SVM Analysis - https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
 
+Article Title:
+Website Title:
+URL          : SAS - https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/
+
+Article Title:
+Website Title:
+URL          : David JOy - https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution
+
+Article Title:
+Website Title:
+URL          : Kaggle -m https://www.kaggle.com/
 
 ## **Skills / Knowledge Gap**
 
-As reference material for how to structure a project for use in git, i have utilised teh following documentaiton : 
-https://help.github.com/en/github/managing-your-work-on-github
+Article Title: Managing your work on GitHub
+Website Title: https://help.github.com
+URL          : https://help.github.com/en/github/managing-your-work-on-github
 
-Performing a Runbook checklist https://stepshot.net/how-to-create-a-runbook/
+Article Title: How to Create a Runbook that Rocks? Automatically is the Best Way
+Website Title: https://stepshot.net
+URL          : https://stepshot.net/how-to-create-a-runbook/
+
+Article Title:
+Website Title:
+URL          :
+
+Article Title:
+Website Title:
+URL          :
+
+Article Title:
+Website Title:
+URL          :
+
+Article Title:
+Website Title:
+URL          :
+
+Article Title:
+Website Title:
+URL          :
+
 
 
