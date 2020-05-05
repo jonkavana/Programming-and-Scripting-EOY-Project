@@ -103,7 +103,7 @@ The data set has also successfully been used in the area of neural networking. N
 As we can see from the information extracted from the data set, there are four variables that are to be analysed, namley "Sepal Lenght", "Sepal Width", "Petal Lenght", "Petal Width". We can see that there is a considerable difference in the mean between the Speal Length and the Petal Length on average. This logically stands to reason, as previously mentioned, the Sepal is the outer cover of the plant, so it would cover more surface area. 
 
 
-![Seperating the Iris by Species]()
+![Seperating the Iris by Species](Images from Analysis\Species.PNG)
 
 One of the most important aspects of the data, as called out in the analysis is that it is comprised of three seperate types of Iris. Each of 50 instances each.
 
