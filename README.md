@@ -148,7 +148,9 @@ linear discriminant model - needs to be reviewed.
 ## **Markdown Research**:
 
 Article Title: Getting Started. An overview of MarkDown, how it works, and what you can do with it. 
+
 Website Title: www.markdown.org
+
 URL          : https://www.markdownguide.org/getting-started/
 
 Article Title: Mastering Markdown
@@ -162,6 +164,10 @@ URL          : https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-m
 Article Title: Markdown:Syntax 
 Website Title: www.daringfireball.com
 URL          : https://daringfireball.net/projects/markdown/syntax#overview
+
+Article Title: Basic Syntax
+Website Title: https://www.markdownguide.org
+URL          : https://www.markdownguide.org/basic-syntax/
 
 ## **Fishers DataSet**: 
 
