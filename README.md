@@ -103,7 +103,7 @@ The data set has also successfully been used in the area of neural networking. N
 As we can see from the information extracted from the data set, there are four variables that are to be analysed, namley "Sepal Lenght", "Sepal Width", "Petal Lenght", "Petal Width". We can see that there is a considerable difference in the mean between the Speal Length and the Petal Length on average. This logically stands to reason, as previously mentioned, the Sepal is the outer cover of the plant, so it would cover more surface area. 
 
 
-![Seperating the Iris by Species](./Species.PNG)
+![Seperating the Iris by Species]()
 
 One of the most important aspects of the data, as called out in the analysis is that it is comprised of three seperate types of Iris. Each of 50 instances each.
 
@@ -171,13 +171,16 @@ URL          : https://www.markdownguide.org/basic-syntax/
 
 ## **Fishers DataSet**: 
 
-Article Title: Iris Flower Dataset used for multi-class classification
-Website Title: www.Kaggle.com
-URL          : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
+- Article Title: Iris Flower Dataset used for multi-class classification
+- Website Title: www.Kaggle.com
+- URL          : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
 
-Article Title: The use of multiple measurements in Taxonomic Problems 
-Website Title: https://onlinelibrary.wiley.com
-URL          : https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
+
+
+
+- Article Title: The use of multiple measurements in Taxonomic Problems 
+- Website Title: https://onlinelibrary.wiley.com
+ - URL          : https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
 
 Article Title: Taxonomy
 Website Title: https://www.merriam-webster.com
