@@ -18,24 +18,24 @@ On reading the information that is contained in the project there are a number o
 Project Breakdown:
     Section A) Fishers Data Set
         1) Find a data set that contains the original clean copy of the data set.
-            1.1) Data set has been found
-            1.2) Test to read in csv file
-            1.3) Analysis
+            1.1) Data set has been found - completed
+            1.2) Test to read in csv file - completed
+            1.3) Analysis 
                 1.3.1) reference to Section B Task 6
         2) Perform a research of the data set and why it is under analysis
-            2.1) reivew of fisher biography
-            2.2) reivew of the paper and its conclusions
-            2.3) praise for the set
-            2.4) criticism of the set
-            2.5) Conclusion of the paper.
-            2.6) its link to the data analysis performed today.
+            2.1) reivew of fisher biography - completed
+            2.2) reivew of the paper and its conclusions - 
+            2.3) praise for the set - completed
+            2.4) criticism of the set - completed
+            2.5) Conclusion of the paper with analysis
+            2.6) its link to the data analysis performed today. - completed
         
     Section B) Expected Output:
-        4) Research from the information about Fishers data set are to be commited to the READ.md file
+        4) Research from the information about Fishers data set are to be commited to the READ.md file - completed.
             4.1) This file in its entirety will need to be added into the read.md file.
                 4.1.1) this needs to be validated to avoid duplication.
         5) Download the data 
-            5.1) Add it to the repository
+            5.1) Add it to the repository - completed
                 5.1.1) Reference to Section A - 1).
         6) Write an analysis called analysis.py, which contains:
             6.1) Output of each variable to a single text file
