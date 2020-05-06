@@ -75,6 +75,8 @@ The Iris Data Set, has been used with the Support Vector Machine (SVM) by Ritvik
         print(confusion_matrix(Y_validation, predictions))
         print(classification_report(Y_validation, predictions))
 
+This prodiced an accuracy result of 91%, whilst a confusion matrix using the sklearn library highlights that there are areas that can be worked on to further improve the accuracy.
+
 In the area of machine learning, there is a model known as Gradient Boosting. Gradient boosting is used in the classification of data, according to [Cindy Wang](https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/ "Cindy Wang"). According to Wang, this provides an introductory overview of visual data mining as well as a machine learning product being utiliised, whilst leveraging Fisher's data set to show its capability.
 
 The data set has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped however loosely on the brain. The purpose of neural networking to develop and recognize patterns. It is also used to cluster and aid with the classification, per the same source. We can see that the Fisher Data Set has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle"). 
@@ -138,10 +140,6 @@ According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook
  - How to run the program from end to end. 
 
 
-## Further research to be conducted
-distinguishable on te non linear branching component
-linear discriminant model - needs to be reviewed.
-
 # Bibliography
 
 ## **Markdown Research**:
@@ -175,11 +173,9 @@ URL          : https://www.markdownguide.org/basic-syntax/
 - URL          : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
 
 
-
-
 - Article Title: The use of multiple measurements in Taxonomic Problems 
 - Website Title: https://onlinelibrary.wiley.com
- - URL          : https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
+- URL          : https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
 
 Article Title: Taxonomy
 Website Title: https://www.merriam-webster.com
