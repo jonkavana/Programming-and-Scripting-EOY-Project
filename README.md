@@ -140,6 +140,26 @@ According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook
  - How to run the program from end to end. 
 
 
+## Software to be downloaded
+
+There is a requirement to download and install the anaconda package to your computer. Once this installation has been completed, the user can then proceed to using the tooling. 
+
+## Data Import Source
+
+The soruce of the data set is taken from the following website source, as hosted on Kaggle. 
+
+[MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd"). It is via this link that the user can retriece a csv file to be read into the python programme.
+
+## How to run the programme from end to end
+
+Import the following libraries to your python programme:
+    import pandas
+    import numpy as np
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+
+These libraries are required to perform the anlaysis form end to end.
+
 # Bibliography
 
 ## **Markdown Research**:
