@@ -153,10 +153,11 @@ The soruce of the data set is taken from the following website source, as hosted
 ## How to run the programme from end to end
 
 Import the following libraries to your python programme:
-    import pandas
-    import numpy as np
-    import seaborn as sns
-    import matplotlib.pyplot as plt
+
+        import pandas
+        import numpy as np
+        import seaborn as sns
+        import matplotlib.pyplot as plt
 
 These libraries are required to perform the anlaysis form end to end.
 
