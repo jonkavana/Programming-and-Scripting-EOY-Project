@@ -62,15 +62,31 @@ It is at the point, in the 'Applications to the theory of Allopolyploidy' that w
 
 In relation to the layout of the mathematical components, there are some concerns. These layout paculiarities are quite conflicitng and feel overlooked from the perspective of Fisher. He states "For reasons to be discussed later we shall estimate the variance of a single plant by dividing 1085.5522 by 95", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). This I feel is neither a benefit to the reader, or a point that is guides us to the material for review at a later date. If a reader of this paper does not have a basic understanding of the mathematics, it adds unnecessary confusion where it is not required.
 
-### How has the Iris Data Set been adapted to modern literature
+## How has the Iris Data Set been adapted to modern literature
 
-Upon starting this research into the Fisher Iris Data Set, one of the common links to be returned was in the area of Machine Learning. Machine Learning, according to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") is the process of taking data as well as machine learned algorithms and using the two of them together to find and apply patterns in the data. 
+Upon starting this research into the Fisher Iris Data Set, one of the common links to be returned was in the area of Machine Learning. Machine Learning, according to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") is the process of taking data as well as machine learned algorithms and using the two of them together to find patterns in the data and apply further learning. 
 
-The Iris Data Set, has been used with the Support Vector Machine by Ritvik Raj, in order to extract meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract value and makes for fascinating read in this area of study.
+The Iris Data Set, has been used with the Support Vector Machine (SVM) by Ritvik Raj, in order to extract meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract value and makes for a fascinating read in his area of study. Having discovered that the SVM model was the most accurate, Raj ran it against the test data set using the following code: 
 
-In the area of machine learnign, there is a model known as Gradient Boosting. it is used in teh classfification of data, according to [Cindy Wang](https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/ "Cindy Wang") on the SAS blog forum. It is, according to Wang, a introductory overview of visual data mining as well as maine learning product being leveraged, whilst using Fisher's data set to show its capability.
+        knn = KNeighborsClassifier()
+        knn.fit(X_train, Y_train)
+        predictions = knn.predict(X_validation)
+        print(accuracy_score(Y_validation, predictions))
+        print(confusion_matrix(Y_validation, predictions))
+        print(classification_report(Y_validation, predictions))
 
-The data set has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped, however loosely on the brain. The purpose of neeural networking to develop and recognize patterns. It is alos used to cluster and aid with the classification, per the same source. We can see that the Fisher Data Set has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle").
+In the area of machine learning, there is a model known as Gradient Boosting. Gradient boosting is used in the classification of data, according to [Cindy Wang](https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/ "Cindy Wang"). According to Wang, this provides an introductory overview of visual data mining as well as a machine learning product being utiliised, whilst leveraging Fisher's data set to show its capability.
+
+The data set has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped however loosely on the brain. The purpose of neural networking to develop and recognize patterns. It is also used to cluster and aid with the classification, per the same source. We can see that the Fisher Data Set has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle"). 
+Below we can see part of the code extracted from the script:
+
+        tf.reset_default_graph()
+        (n_x, m) = X_train_flatten.shape       # shape of X                    
+        n_y = Y_train_flatten.shape[0]         # shape of Y
+        X, Y = create_placeholders(n_x,n_y)    # creating placeholder 
+        tf.set_random_seed(42)
+
+This code is being used to display the value for the five attributes in the dataset. Where we see the "X_train_flatten.shape", this represents the Sepal Length & Width, as well as the Petal Length & Width. In relation to the "Y_train_flatten.shape", this is the representation of the Species.
 
 
 # Analysis of the data from Python
