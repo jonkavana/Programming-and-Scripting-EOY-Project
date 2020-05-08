@@ -82,7 +82,7 @@ plt.show()
 # This as a code will print a hist of the sepal length
 plt.figure(figsize = (6, 5)) 
 SepalLengthHist = IrisData["sepal_length"] 
-plt.hist(SepalHist, bins = 20, color = "green") 
+plt.hist(SepalLengthHist, bins = 20, color = "green") 
 plt.title("Sepal Length in cm") 
 plt.xlabel("Sepal_Length_cm") 
 plt.ylabel("Count")
@@ -90,7 +90,7 @@ plt.savefig("SepalHist.png")
 
 plt.figure(figsize = (6, 5)) 
 SepalWidthHist = IrisData["sepal_width"] 
-plt.hist(SepalHist, bins = 20, color = "blue") 
+plt.hist(SepalWidthHist, bins = 20, color = "blue") 
 plt.title("Sepal Width in cm") 
 plt.xlabel("Sepal_Width_cm") 
 plt.ylabel("Count")
@@ -98,7 +98,7 @@ plt.savefig("SepalWidthHist.png")
 
 plt.figure(figsize = (6, 5)) 
 PetalWidthHist = IrisData["petal_width"] 
-plt.hist(SepalHist, bins = 20, color = "red") 
+plt.hist(PetalWidthHist, bins = 20, color = "red") 
 plt.title("Petal Width in cm") 
 plt.xlabel("Petal_Width_cm") 
 plt.ylabel("Count")
@@ -106,7 +106,7 @@ plt.savefig("PetalWidthHist.png")
 
 plt.figure(figsize = (6, 5)) 
 PetalLengthHist = IrisData["petal_length"] 
-plt.hist(SepalHist, bins = 20, color = "magenta") 
+plt.hist(PetalLengthHist, bins = 20, color = "magenta") 
 plt.title("Petal Length in cm") 
 plt.xlabel("Petal_Length_cm") 
 plt.ylabel("Count")
