@@ -104,23 +104,24 @@ One of the most important aspects of the data, as called out in the analysis is 
 
 ![Sepal Length comparison between the three Iris Types](Images-from-Analysis/SepalLength.png)
 
-As we can see ifrom teh image above, there is a difference between all three species.
+As we can see in the image above, there is a considerable difference in the distribution in three tyes of species in relation to the sepal length. We can see that the greatest delta is between the Setosa and the Virginica, with a span of Setosa box being more narrow than that of the Virginica. It's an important reminder to be conscience of that the Sepal is the outer leaf on the Iris plant.
 
 ![Sepal Width comparison between the three Iris Types](Images-from-Analysis/SepalWidth.png)
 
-As we can see ifrom teh image above, there is a difference between all three species.
+It is clear to see that there are a number of differences in relation to Sepal Width, with a role reversal to be seen between the Setosa and the Virginica. Based on the divisional line between the setosa, there is a majority of the instances captured where the width exceeds the average.
 
 ![Petal Length comparison between the three Iris Types](Images-from-Analysis/PetalLength.png)
 
-As we can see ifrom teh image above, there is a difference between all three species.
+In terms of what we can take from the length of the petal the VIrginica is considerably longer relative to both the setosa and the versicolor. 
 
 ![Sepal Width comparison between the three Iris Types](Images-from-Analysis/PetalWidth.png)
 
-As we can see ifrom teh image above, there is a difference between all three species.
+Finally, we have the comparison between the three different petal widths. The Virgininca again has shown to be the widest, with the setosa being the least wide. 
 
-We can also see in the image below, which was created using the Seaborn library, the relationships that are possible between these attributes. It has marked out in a four by four matrix format all the permutations of the four attributes.
 
 ![All four attributes in a matrix](Images-from-Analysis/seaborn.png)
+
+We can also see in the image below, which was created using the Seaborn library, the relationships that are possible between these attributes. It has marked out in a four by four matrix format all the permutations of the four attributes.
 
 In order to create the above, we have used the following code:
 
