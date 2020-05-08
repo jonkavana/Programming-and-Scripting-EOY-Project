@@ -201,14 +201,14 @@ As we have seen in our analysis in the previo;us section of the text, there are 
 
 To run a histogram chart, we need to write out the following script:
 
-        # This as a code will print a hist of the sepal length
-        # plt.figure(figsize = (6, 5)) 
-        # SepalHist = IrisData["sepal_length"] 
-        # plt.hist(SepalHist, bins = 20, color = "green") 
-        # plt.title("Sepal Length in cm") 
-        # plt.xlabel("Sepal_Length_cm") 
-        # plt.ylabel("Count")
-        # plt.savefig("SepalHist.png")
+        #This as a code will print a hist of the sepal length
+        plt.figure(figsize = (6, 5)) 
+        SepalHist = IrisData["sepal_length"] 
+        plt.hist(SepalHist, bins = 20, color = "green") 
+        plt.title("Sepal Length in cm") 
+        plt.xlabel("Sepal_Length_cm") 
+        plt.ylabel("Count")
+        plt.savefig("SepalHist.png")
 
 From the script above, we will be able to run a histogram chart for the Sepal Length.  If we replace the "sepal_length" with one of our other attributes, we will be able to chart these up too. Please note that the .png file wil need to be renamed to suit the attribute.
 
@@ -227,9 +227,7 @@ From the script above, we will need to replace the attributes of sepal width & l
 ## **Markdown Research**:
 
 Article Title: Getting Started. An overview of MarkDown, how it works, and what you can do with it. 
-
 Website Title: www.markdown.org
-
 URL          : https://www.markdownguide.org/getting-started/
 
 Article Title: Mastering Markdown
@@ -250,14 +248,14 @@ URL          : https://www.markdownguide.org/basic-syntax/
 
 ## **Fishers DataSet**: 
 
-- Article Title: Iris Flower Dataset used for multi-class classification
-- Website Title: www.Kaggle.com
-- URL          : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
+Article Title: Iris Flower Dataset used for multi-class classification
+Website Title: www.Kaggle.com
+URL          : https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
 
 
-- Article Title: The use of multiple measurements in Taxonomic Problems 
-- Website Title: https://onlinelibrary.wiley.com
-- URL          : https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
+Article Title: The use of multiple measurements in Taxonomic Problems 
+Website Title: https://onlinelibrary.wiley.com
+URL          : https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
 
 Article Title: Taxonomy
 Website Title: https://www.merriam-webster.com
@@ -287,11 +285,7 @@ Article Title: National Gardening Association
 Website Title: https://garden.org
 URL          : https://garden.org/courseweb/course1/week3/page3.htm
 
-Article Title:
-Website Title:
-URL          :
-
-## Applications to wider ##
+## Applications to Modern Literature ##
 
 Article Title: Iris Dataset Analysis (Python)
 Website Title: https://rajritvikblog.wordpress.com
@@ -330,22 +324,6 @@ URL          : https://stepshot.net/how-to-create-a-runbook/
 Article Title: Fishers Iris Data Set Project
 Website Title: https://github.com/
 URL          : https://github.com/deniscarr/Fishers-Iris-dataset-project/blob/master/README.txt
-
-Article Title:
-Website Title:
-URL          :
-
-Article Title:
-Website Title:
-URL          :
-
-Article Title:
-Website Title:
-URL          :
-
-Article Title:
-Website Title:
-URL          :
 
 
 
