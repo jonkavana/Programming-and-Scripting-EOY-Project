@@ -44,14 +44,14 @@ IrisData = pd.read_csv('IRIS.csv')
 
 # Visual Ouput has been created from this point onwards.
 
-# this will allow us to see the first box plot of all three species based on sepal length
-#df = sns.load_dataset('iris')
-#sns.boxplot(x = df["species"], y = df["sepal_length"])
-#plt.title('Compare of the three Sepal Lengths')
-#plt.xlabel('Difference in the Species')
-#plt.ylabel('Sepal Length')
-#plt.show()
-#plt.savefig("Images-from-Analysis/Test")
+# This will allow us to see the first box plot of all three species based on sepal length
+df = sns.load_dataset('iris')
+sns.boxplot(x = df["species"], y = df["sepal_length"])
+plt.title('Comparision of the three Sepal Lengths')
+plt.xlabel('Difference in the Species')
+plt.ylabel('Sepal Length')
+plt.show()
+plt.savefig("Images-from-Analysis/SepalLengthComparison.png")
 
 # this will allow us to see the first box plot of all three species based on sepal width
 # df = sns.load_dataset('iris')
