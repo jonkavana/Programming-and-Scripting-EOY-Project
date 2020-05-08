@@ -120,7 +120,7 @@ As we can see ifrom teh image above, there is a difference between all three spe
 
 We can also see in the image below, which was created using the Seaborn library, the relationships that are possible between these attributes. It has marked out in a four by four matrix format all the permutations of the four attributes.
 
-![All four attributes in a matrix](Images-from-Analysis/Seaborn.png)
+![All four attributes in a matrix](Images-from-Analysis/seaborn.png)
 
 In order to create the above, we have used the following code:
 
