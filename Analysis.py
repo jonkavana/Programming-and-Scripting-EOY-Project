@@ -45,40 +45,36 @@ IrisData = pd.read_csv('IRIS.csv')
 # Visual Ouput has been created from this point onwards.
 
 # This will allow us to see the first box plot of all three species based on sepal length
-df = sns.load_dataset('iris')
-sns.boxplot(x = df["species"], y = df["sepal_length"])
-plt.title('Comparison of the three Sepal Lengths')
-plt.xlabel('Difference in the Species')
-plt.ylabel('Sepal Length')
-plt.show()
-plt.savefig("SepalLengthComparison.png")
+#df = sns.load_dataset('iris')
+#sns.boxplot(x = df["species"], y = df["sepal_length"])
+#plt.title('Comparison of the three Sepal Lengths')
+#plt.xlabel('Difference in the Species')
+#plt.ylabel('Sepal Length')
+#plt.show()
 
 # this will allow us to see the first box plot of all three species based on sepal width
 # df = sns.load_dataset('iris')
 # sns.boxplot(x = df["species"], y = df["sepal_width"])
-# plt.title('Compare of the three Sepal Widths')
-# plt.xlabel('Difference in the Species')
-# plt.ylabel('Sepal Width')
-# plt.show()
-#plt.savefig("Images-from-Analysis/Test")
+#plt.title('Comparison of the three Sepal Widths')
+#plt.xlabel('Difference in the Species')
+#plt.ylabel('Sepal Width')
+#plt.show()
 
 # this will allow us to see the first box plot of all three species based on petal length
 #df = sns.load_dataset('iris')
 #sns.boxplot(x = df["species"], y = df["petal_length"])
-#plt.title('Compare the three Petal Lengths')
+#plt.title('Comparison of the three Petal Lengths')
 #plt.xlabel('Difference in the Species')
 #plt.ylabel('Petal Length')
 #plt.show()
-#plt.savefig("Images-from-Analysis/Test")
 
 # this will allow us to see the first box plot of all three species based on petal width
 #df = sns.load_dataset('iris')
 #sns.boxplot(x = df["species"], y = df["petal_width"])
-#plt.title('Compare the three Petal Widths')
+#plt.title('Comparison of the three Petal Widths')
 #plt.xlabel('Difference in the Species')
 #plt.ylabel('Petal Width')
 #plt.show()
-#plt.savefig("Images-from-Analysis/Test")
 
 # plt.figure(figsize = (6, 5)) 
 # SepalHist = IrisData["sepal_length"] 
