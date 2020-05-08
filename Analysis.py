@@ -92,17 +92,17 @@ IrisData = pd.read_csv('IRIS.csv')
 # The following code is in relation to the scatterplot requirements of the project.
 # We are going to display the attributes against one another, as well as display the permutations of these instances using the seaborn library.
 
-plt.scatter(IrisData["sepal_length"], IrisData["sepal_width"])
-plt.title("sepal length versus sepal width")
-plt.xlabel("sepal length")
-plt.ylabel("sepal width")
-plt.show()
+#plt.scatter(IrisData["sepal_length"], IrisData["sepal_width"])
+#plt.title("sepal length versus sepal width")
+#plt.xlabel("sepal length")
+#plt.ylabel("sepal width")
+#plt.show()
 
-plt.scatter(IrisData["petal_length"], IrisData["petal_width"])
-plt.title("petal length versus petal width")
-plt.xlabel("sepal length")
-plt.ylabel("sepal width")
-plt.show()
+#plt.scatter(IrisData["petal_length"], IrisData["petal_width"])
+#plt.title("petal length versus petal width")
+#plt.xlabel("sepal length")
+#plt.ylabel("sepal width")
+#plt.show()
 
 sns.pairplot(IrisData, hue="species")
 plt.show()

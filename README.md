@@ -118,6 +118,14 @@ As we can see ifrom teh image above, there is a difference between all three spe
 
 As we can see ifrom teh image above, there is a difference between all three species.
 
+We can also see in the image below, which was created using the Seaborn library, the relationships that are possible between these attributes. It has marked out in a four by four matrix format all the permutations of the four attributes.
+
+![All four attributes in a matrix](Images-from-Analysis/Seaborn.png)
+
+In order to create the above, we have used the following code:
+
+        sns.pairplot(IrisData, hue="species")
+
 
 ## Conclusion
 
@@ -206,7 +214,13 @@ From the script above, we will be able to run a histogram chart for the Sepal Le
 
 If we are looking to create scatter plot relationships between the attributes, then we need to be able write a script, leveraging the functionality of the libraries once again to produce charts. 
 
+        plt.scatter(IrisData["sepal_length"], IrisData["sepal_width"])
+        plt.title("sepal length versus sepal width")
+        plt.xlabel("sepal length")
+        plt.ylabel("sepal width")
+        plt.show()
 
+From the script above, we will need to replace the attributes of sepal width & length with the petal length & petal width equivalents. 
 
 # Bibliography
 
