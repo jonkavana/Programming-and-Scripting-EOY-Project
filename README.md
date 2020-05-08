@@ -131,7 +131,7 @@ It is a testament to the quality of the research that more than eighty years lat
 
 
 # Runbook for Iris Python Code
-According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook/ "Stepshot") there are some key callouts that needs to be adhered to when creating a runbook. Given the scale of our analysis, we may need to hit on every marker, but nevertheless, we will try to provide as much structure as possible for readability purposes. 
+According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook/ "Stepshot") there are some key callouts that needs to be adhered to when creating a runbook. Given the scale of our analysis, we may not need to hit on every marker, but nevertheless, we will try to provide as much structure as possible for readability purposes. 
 
  - Overview of Process
  - Software to be downloaded / required
@@ -141,13 +141,13 @@ According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook
 
 ## Software to be downloaded
 
-There is a requirement to download and install the anaconda package to your computer. Once this installation has been completed, the user can then proceed to using the tooling. 
+There is a requirement to download and install the Anaconda package to your computer. Once this installation has been completed, the user can then proceed to using the software. 
 
 ## Data Import Source
 
 The soruce of the data set is taken from the following website source, as hosted on Kaggle. 
 
-[MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd"). It is via this link that the user can retriece a csv file to be read into the python programme.
+[MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd") has a copy of the file containing the data within this link. This csv file will needto be read into the python programme.
 
 ## How to run the programme from end to end
 
@@ -159,6 +159,33 @@ Import the following libraries to your python programme:
         import matplotlib.pyplot as plt
 
 These libraries are required to perform the anlaysis form end to end.
+
+To read the csv file, we apply the following code in place.
+
+        IrisData = pd.read_csv('IRIS.csv')
+        print(IrisData)
+        AppendToFile(str(IrisData))
+
+This will provide a simple text display to the terminal with each row and column displayed. 
+
+We are required to produce a text fiel for the variables that are produced in our analysis, so we create a function that will append the data to the text file that we are calling 'Output.txt'.
+
+        def AppendToFile(content):
+        file = open("Output.txt", "a")
+        file.write(content)
+        file.close()
+
+The analysis that we are pulling from the data will take two formats. The first will be in the traditional tabular format, the second will be in visual, thanks to the libraries that we have imported.
+We are going to take an overview of the data into an array, a snapshot of the head and tail of the data, the tail. We are also going to extract an overview from a number of viewpoints, such as min, max, standard deviation, as well as a view of the data from each Species within the set. 
+
+        print(IrisData.values)
+        a = IrisData.head(10)
+        b = IrisData.tail(10)
+        c = IrisData.describe
+        d = (IrisData.groupby('species').size())
+
+All of these lines are indivudally run and are then subsequently appended to our 'Output.txt' file.
+
 
 # Bibliography
 
