@@ -76,16 +76,26 @@ IrisData = pd.read_csv('IRIS.csv')
 #plt.ylabel('Petal Width')
 #plt.show()
 
+# The following code is in relation to the histogram requirements of the project.
+# We are goign to the create a histogram relationshop between our four attributes, the sepal length & width, as well as the petal length & width.
+
+# This as a code will print a hist of the sepal length
 # plt.figure(figsize = (6, 5)) 
 # SepalHist = IrisData["sepal_length"] 
-
 # plt.hist(SepalHist, bins = 20, color = "green") 
 # plt.title("Sepal Length in cm") 
 # plt.xlabel("Sepal_Length_cm") 
 # plt.ylabel("Count")
 # plt.savefig("SepalHist.png")
-# This as a code will print a hist of the sepal length
 
-#plt.figure(figsize = (10, 10))
-#plt.scatter(IrisData["sepal_length"], IrisData["sepal_width"])
-#plt.show()
+
+# The following code is in relation to the histogram requirements of the project.
+
+plt.figure(figsize = (150, 150))
+colours = ("red","blue")
+area = np.pi*5
+plt.scatter(IrisData["sepal_length"], IrisData["sepal_width"], s= area, c=colours, alpha=0.5)
+#plt.scatter(IrisData["sepal_width"],color='black')
+#plt.scatter(IrisData["petal_length"], color='magenta')
+#plt.scatter(IrisData["petal_width"], color='blue')
+plt.show()

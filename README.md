@@ -186,6 +186,27 @@ We are going to take an overview of the data into an array, a snapshot of the he
 
 All of these lines are indivudally run and are then subsequently appended to our 'Output.txt' file.
 
+## Visualing the data
+
+We are going to use some of the functionality that is part of the libraries that we have imported from matplotlib as well as the seaborn library. 
+As we have seen in our analysis in the previo;us section of the text, there are some requirements for this project. From a visualisation perspective, we need to be able to run a histogram as well as a scatter plot. 
+
+To run a histogram chart, we need to write out the following script:
+
+        # This as a code will print a hist of the sepal length
+        # plt.figure(figsize = (6, 5)) 
+        # SepalHist = IrisData["sepal_length"] 
+        # plt.hist(SepalHist, bins = 20, color = "green") 
+        # plt.title("Sepal Length in cm") 
+        # plt.xlabel("Sepal_Length_cm") 
+        # plt.ylabel("Count")
+        # plt.savefig("SepalHist.png")
+
+From the script above, we will be able to run a histogram chart for the Sepal Length.  If we replace the "sepal_length" with one of our other attributes, we will be able to chart these up too. Please note that the .png file wil need to be renamed to suit the attribute.
+
+If we are looking to create scatter plot relationships between the attributes, then we need to be able write a script, leveraging the functionality of the libraries once again to produce charts. 
+
+
 
 # Bibliography
 
