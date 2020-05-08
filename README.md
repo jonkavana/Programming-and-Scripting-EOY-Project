@@ -102,19 +102,19 @@ As we can see from the information extracted from the data set, there are four v
 
 One of the most important aspects of the data, as called out in the analysis is that it is comprised of three seperate types of Iris. Each of 50 instances each.
 
-![Sepal Length comparison between the three Iris Types](Images-from-Analysis/SepalLengthComparison.png)
+![Sepal Length comparison between the three Iris Types](Images-from-Analysis/SepalLength.png)
 
 As we can see ifrom teh image above, there is a difference between all three species.
 
-![Sepal Width comparison between the three Iris Types](Images-from-Analysis/SepalWidthComparison.png)
+![Sepal Width comparison between the three Iris Types](Images-from-Analysis/SepalWidth.png)
 
 As we can see ifrom teh image above, there is a difference between all three species.
 
-![Petal Length comparison between the three Iris Types](Images-from-Analysis/PetalLengthComparison.png)
+![Petal Length comparison between the three Iris Types](Images-from-Analysis/PetalLength.png)
 
 As we can see ifrom teh image above, there is a difference between all three species.
 
-![Sepal Width comparison between the three Iris Types](Images-from-Analysis/PetalWidthComparison.png)
+![Sepal Width comparison between the three Iris Types](Images-from-Analysis/PetalWidth.png)
 
 As we can see ifrom teh image above, there is a difference between all three species.
 
