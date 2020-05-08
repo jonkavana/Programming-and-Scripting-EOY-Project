@@ -40,7 +40,7 @@ Fisher sought to apply this discipline to taxonomy [Wiley Online Library](https:
 
 Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/dictionary/taxonomy "Merriam-Webster") is the "general principles of scientific classification" as they apply to flowers. We can see that this is the highest point at which the two disciplines are merging, mathematical concepts and the classification of flowers. 
 
-## Praise for the Literature
+### Praise for the Literature
 
 To fully appreciate the paper, there is a requirement to have an understanding for the reoccuring language within the paper. In this case, I am speaking about 'species' and 'genus'. Genus is the collective term for similar plants, according to the [National Gardening Association](https://garden.org/courseweb/course1/week3/page3.htm "NGA"). According to the National Gardening Association the term species, can only refer to the name of the specific plant within the genus. 
 
@@ -50,7 +50,7 @@ From a mathematical perspective, there is a logical sequence of events that Fish
 
 Because of the ananlysis that Fisher performed, according to [Towards Science](https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5 "Towards Science"), the discriminant funciton was successful in performing its function. That is, successfully distinguish between the three species.
 
-## Criticism of the literature
+### Criticism of the literature
 
 As mentioned previously in this analysis, there are two specific species that have been collected, as detailed under the 'Arithmetical Procedure'. Without any mention of the third species, we are now introduced to a variation in the genus, the Iris Viriginica. This was confusing element to stumble across as there is no mention of it until we read the table. According to the 'Arithmetical Procedure' section of the paper, there were only two species taken from the first set of Iris. These were the Iris Setosa and the Iris Versicolor.
 The third Iris, is not taken from the same colony, the scope of the research appears to be focused on the first 100 instances before widening the lens to include the versicolor.
@@ -62,7 +62,7 @@ It is at the point, in the 'Applications to the theory of Allopolyploidy' that w
 
 In relation to the layout of the mathematical components, there are some concerns. These layout paculiarities are quite conflicitng and feel overlooked from the perspective of Fisher. He states "For reasons to be discussed later we shall estimate the variance of a single plant by dividing 1085.5522 by 95", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). This I feel is neither a benefit to the reader, or a point that is guides us to the material for review at a later date. If a reader of this paper does not have a basic understanding of the mathematics, it adds unnecessary confusion where it is not required.
 
-## How has the Iris Data Set been adapted to modern literature
+### How has the Iris Data Set been adapted to modern literature
 
 Upon starting this research into the Fisher Iris Data Set, one of the common links to be returned was in the area of Machine Learning. Machine Learning, according to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") is the process of taking data as well as machine learned algorithms and using the two of them together to find patterns in the data and apply further learning. 
 
@@ -91,7 +91,7 @@ Below we can see part of the code extracted from the script:
 This code is being used to display the value for the five attributes in the dataset. Where we see the "X_train_flatten.shape", this represents the Sepal Length & Width, as well as the Petal Length & Width. In relation to the "Y_train_flatten.shape", this is the representation of the Species.
 
 
-# Analysis of the data from Python
+## Analysis of the data from Python
 
 ![Overview of the dataset](Images-from-Analysis/Describe.PNG)
 
@@ -138,7 +138,7 @@ It is a testament to the quality of the research that more than eighty years lat
 
 
 
-# Runbook for Iris Python Code
+## Runbook for Iris Python Code
 According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook/ "Stepshot") there are some key callouts that needs to be adhered to when creating a runbook. Given the scale of our analysis, we may not need to hit on every marker, but nevertheless, we will try to provide as much structure as possible for readability purposes. 
 
  - Overview of Process
@@ -147,17 +147,19 @@ According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook
  - How to run the program from end to end. 
 
 
-## Software to be downloaded
+### Software to be downloaded
 
 There is a requirement to download and install the Anaconda package to your computer. Once this installation has been completed, the user can then proceed to using the software. 
 
-## Data Import Source
+### Data Import Source
 
 The soruce of the data set is taken from the following website source, as hosted on Kaggle. 
 
 [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd") has a copy of the file containing the data within this link. This csv file will needto be read into the python programme.
 
-## How to run the programme from end to end
+### How to run the programme from end to end
+
+#### Data Analysis on the Dataset
 
 Import the following libraries to your python programme:
 
@@ -194,7 +196,7 @@ We are going to take an overview of the data into an array, a snapshot of the he
 
 All of these lines are indivudally run and are then subsequently appended to our 'Output.txt' file.
 
-## Visualing the data
+#### Visualing the data
 
 We are going to use some of the functionality that is part of the libraries that we have imported from matplotlib as well as the seaborn library. 
 As we have seen in our analysis in the previo;us section of the text, there are some requirements for this project. From a visualisation perspective, we need to be able to run a histogram as well as a scatter plot. 
@@ -222,9 +224,9 @@ If we are looking to create scatter plot relationships between the attributes, t
 
 From the script above, we will need to replace the attributes of sepal width & length with the petal length & petal width equivalents. 
 
-# Bibliography
+## Bibliography
 
-## **Markdown Research**:
+### **Markdown Research**:
 
 Article Title: Getting Started. An overview of MarkDown, how it works, and what you can do with it. 
 Website Title: www.markdown.org
@@ -246,7 +248,7 @@ Article Title: Basic Syntax
 Website Title: https://www.markdownguide.org
 URL          : https://www.markdownguide.org/basic-syntax/
 
-## **Fishers DataSet**: 
+### **Fishers DataSet**: 
 
 Article Title: Iris Flower Dataset used for multi-class classification
 Website Title: www.Kaggle.com
@@ -285,7 +287,7 @@ Article Title: National Gardening Association
 Website Title: https://garden.org
 URL          : https://garden.org/courseweb/course1/week3/page3.htm
 
-## Applications to Modern Literature ##
+### Applications to Modern Literature: 
 
 Article Title: Iris Dataset Analysis (Python)
 Website Title: https://rajritvikblog.wordpress.com
@@ -311,7 +313,7 @@ Article Title: A Beginner's Guide to Neural Networks and Deep Learning
 Website Title: https://pathmind.com
 URL          : https://pathmind.com/wiki/neural-network#define
 
-## **Skills / Knowledge Gap**
+### **Skills / Knowledge Gap**:
 
 Article Title: Managing your work on GitHub
 Website Title: https://help.github.com
@@ -324,6 +326,3 @@ URL          : https://stepshot.net/how-to-create-a-runbook/
 Article Title: Fishers Iris Data Set Project
 Website Title: https://github.com/
 URL          : https://github.com/deniscarr/Fishers-Iris-dataset-project/blob/master/README.txt
-
-
-
