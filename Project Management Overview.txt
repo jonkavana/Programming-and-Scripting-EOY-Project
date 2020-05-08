@@ -32,11 +32,11 @@ Project Breakdown:
         
     Section B) Expected Output:
         4) Research from the information about Fishers data set are to be commited to the READ.md file - completed.
-            4.1) This file in its entirety will need to be added into the read.md file.
-                4.1.1) this needs to be validated to avoid duplication.
-        5) Download the data 
+            4.1) This file in its entirety will need to be added into the read.md file. - completed
+                4.1.1) this needs to be validated to avoid duplication.- completed
+        5) Download the data - completed
             5.1) Add it to the repository - completed
-                5.1.1) Reference to Section A - 1).
+                5.1.1) Reference to Section A - 1). - completed
         6) Write an analysis called analysis.py, which contains:
             6.1) Output of each variable to a single text file - completed
             6.2) Saves a histogram of each variable of png file type - completed
