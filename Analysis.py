@@ -3,37 +3,46 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# We need to create a function to append each variable in our analysis into a single text file, so we call on this to do so.
 def AppendToFile(content):
     file = open("Output.txt", "a")
     file.write(content)
     file.close()
 
+# the following will print to the terminal screen the contents of the file in full in a grided view.
 IrisData = pd.read_csv('IRIS.csv')
-# print(IrisData.values)
-# print(IrisData)
-# AppendToFile(str(IrisData))
-# this has output the full 150 instances of the data set to the terminal. 
+print(IrisData)
+AppendToFile(str(IrisData))
 
-# to provide an analysis of the information within the text, we are going to extract the following from the data: 
-# Head of the data, tail of the data, describe of all the data contained. 
+# To provide an analysis of the information within the text, we are going to extract the following from the data: 
+# An array of the data, Head of the data, tail of the data, description of the data contained. 
 
-#a = IrisData.head(10)
-#print(a(10))
-# AppendToFile(str(a))
+# the following will return all values for each instance in an array format.
+print(IrisData.values)
+AppendToFile(str(IrisData.values))
+
 # this will provide a cursory glance at the material from the first 10 rows of data.
+a = IrisData.head(10)
+print(a)
+AppendToFile(str(a))
 
-# d = IrisData.tail
-# print(d(10))
 # This will provide a cursory glance at the material from the last 10 rows of data.
+b = IrisData.tail
+print(b(10))
+AppendToFile(str(b))
 
-# b = IrisData.describe
-# print(b())
-# AppendToFile(str(b()))
 # this has printed to the terminal the overall description of the data set
+c = IrisData.describe
+print(c())
+AppendToFile(str(c()))
 
-# c = (IrisData.groupby('species').size())
-# print(c)
-# this will allow us to view the individual names of each iris
+# this will allow us to view the individual names of each Iris
+d = (IrisData.groupby('species').size())
+print(d)
+AppendToFile(str(d))
+
+
+# Visual Ouput has been created from this point onwards.
 
 # df = sns.load_dataset('iris')
 # sns.boxplot(x = df["species"], y = df["sepal_length"])
@@ -75,6 +84,6 @@ IrisData = pd.read_csv('IRIS.csv')
 # plt.savefig("SepalHist.png")
 # This as a code will print a hist of the sepal length
 
-plt.figure(figsize = (10, 10))
-plt.scatter(IrisData["sepal_length"], IrisData["sepal_width"])
-plt.show()
+#plt.figure(figsize = (10, 10))
+#plt.scatter(IrisData["sepal_length"], IrisData["sepal_width"])
+#plt.show()
