@@ -95,12 +95,12 @@ This code is being used to display the value for the five attributes in the data
 
 ![Overview of the dataset](Images-from-Analysis/Describe.PNG)
 
-As we can see from the information extracted from the data set, there are four variables that are to be analysed, namley "Sepal Lenght", "Sepal Width", "Petal Lenght", "Petal Width". We can see that there is a considerable difference in the mean between the Speal Length and the Petal Length on average. This logically stands to reason, as previously mentioned, the Sepal is the outer cover of the plant, so it would cover more surface area. 
+As we can see from the information extracted from the data set, there are four variables that are to be analysed, namely "Sepal Length", "Sepal Width", "Petal Length", "Petal Width". We can see that there is a considerable difference in the mean between the Sepal Length and the Petal Length. This logically stands to reason, as previously mentioned, the Sepal is the outer cover of the plant, so it would cover more surface area. 
 
 
 ![Seperating the Iris by Species](Images-from-Analysis/Species.PNG)
 
-One of the most important aspects of the data, as called out in the analysis is that it is comprised of three seperate types of Iris. Each of 50 instances each.
+One of the most important aspects of the data, as called out in the analysis is that it is comprised of the Iris Genus. This is the collective term used when there are similar flowers in a set. The image above is an extraction of the individual species. 
 
 ![Sepal Length comparison between the three Iris Types](Images-from-Analysis/SepalLength.png)
 
