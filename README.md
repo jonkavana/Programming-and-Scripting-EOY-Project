@@ -93,7 +93,7 @@ This code is being used to display the value for the five attributes in the data
 
 # Analysis of the data from Python
 
-![Overview of the dataset](./Describe.PNG)
+![Overview of the dataset](Images-from-Analysis/Describe.PNG)
 
 As we can see from the information extracted from the data set, there are four variables that are to be analysed, namley "Sepal Lenght", "Sepal Width", "Petal Lenght", "Petal Width". We can see that there is a considerable difference in the mean between the Speal Length and the Petal Length on average. This logically stands to reason, as previously mentioned, the Sepal is the outer cover of the plant, so it would cover more surface area. 
 
@@ -102,19 +102,19 @@ As we can see from the information extracted from the data set, there are four v
 
 One of the most important aspects of the data, as called out in the analysis is that it is comprised of three seperate types of Iris. Each of 50 instances each.
 
-![Sepal Length comparison between the three Iris Types](./SepalLengthComparison.png)
+![Sepal Length comparison between the three Iris Types](Images-from-Analysis/SepalLengthComparison.png)
 
 As we can see ifrom teh image above, there is a difference between all three species.
 
-![Sepal Width comparison between the three Iris Types](./SepalWidthComparison.png)
+![Sepal Width comparison between the three Iris Types](Images-from-Analysis/SepalWidthComparison.png)
 
 As we can see ifrom teh image above, there is a difference between all three species.
 
-![Petal Length comparison between the three Iris Types](./PetalLengthComparison.png)
+![Petal Length comparison between the three Iris Types](Images-from-Analysis/PetalLengthComparison.png)
 
 As we can see ifrom teh image above, there is a difference between all three species.
 
-![Sepal Width comparison between the three Iris Types](./PetalWidthComparison.png)
+![Sepal Width comparison between the three Iris Types](Images-from-Analysis/PetalWidthComparison.png)
 
 As we can see ifrom teh image above, there is a difference between all three species.
 
