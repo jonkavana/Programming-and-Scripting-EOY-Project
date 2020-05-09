@@ -106,11 +106,7 @@ plt.savefig("PetalWidthHist.png")
 
 plt.figure(figsize = (6, 5)) 
 PetalLengthHist = IrisData["petal_length"] 
-<<<<<<< HEAD
-plt.hist(PetalLengthHist, bins = 20, color = "orange") 
-=======
 plt.hist(SepalHist, bins = 20, color = "magenta") 
->>>>>>> parent of 0196838... cosmetic change
 plt.title("Petal Length in cm") 
 plt.xlabel("Petal_Length_cm") 
 plt.ylabel("Count")
