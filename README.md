@@ -147,6 +147,8 @@ Reference material for the use and overview of Pandas as retrieved from [Scipy L
 Reference material for the execution of syntax structure in a scatterplt[Medium.com](https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342 "medium.com")
 Reference material for how to construct the Reference Guide on a GitHub Repository [Denis Carr](https://github.com/deniscarr/Fishers-Iris-dataset-project/blob/master/README.txt "Denis Carr")
 Reference material for initial analysis structure [RitRa](https://github.com/RitRa/Project2018-iris/blob/master/README.md "RitRa")
+Reference material for Histogram Structure [RealPython](https://realpython.com/python-histograms/ "RealPython")
+
 
 
 ## Conclusion
