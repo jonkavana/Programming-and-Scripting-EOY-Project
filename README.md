@@ -274,8 +274,8 @@ This will allow us to see the first box plot of all three species based on petal
         plt.ylabel('Petal Width')
         plt.show()
 
-# The following code is in relation to the histogram requirements of the project.
-# We are going to the create a histogram relationshop between our four attributes, the sepal length & width, as well as the petal length & width.
+The following code is in relation to the histogram requirements of the project.
+We are going to the create a histogram relationshop between our four attributes, the sepal length & width, as well as the petal length & width.
 
 This as a code will print a hist of the sepal length
 
