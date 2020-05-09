@@ -129,7 +129,7 @@ In terms of what we can take from the length of the petal the VIrginica is consi
 **Comparison of the three Petal Widths**
 ![Sepal Width comparison between the three Iris Types](Images-from-Analysis/PetalWidth.png)
 
-Finally, we have the comparison between the three different petal widths. The Virgininca again has shown to be the widest, with the setosa being the least wide. 
+Finally, we have the comparison between the three different petal widths. The Virginica again has shown to be the widest, with the setosa being the least wide. 
 
 **Pairplot graph**
 ![All four attributes in a matrix](Images-from-Analysis/seaborn.png)
@@ -139,6 +139,14 @@ We can also see in the image below, which was created using the Seaborn library,
 In order to create the above, we have used the following code:
 
         sns.pairplot(IrisData, hue="species")
+
+The above graphs were created with the assistance of, or refernce to the following sources:
+Boxplot graphs were created using partial code taken from [MatPlotLib Documentation](https://matplotlib.org/3.1.1/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py "Boxplots on Matplotlib")
+Prompt required for teh Seaborn Graph as referenced by [StackOverflow](https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up "Query with response")
+Reference material for the use and overview of Pandas as retrieved from [Scipy Lectures](http://scipy-lectures.org/packages/statistics/index.html "ScipyLeactures")
+Reference material for the execution of syntax structure in a scatterplt[Medium.com](https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342 "medium.com")
+Reference material for how to construct the Reference Guide on a GitHub Repository [Denis Carr](https://github.com/deniscarr/Fishers-Iris-dataset-project/blob/master/README.txt "Denis Carr")
+Reference material for initial analysis structure [RitRa](https://github.com/RitRa/Project2018-iris/blob/master/README.md "RitRa")
 
 
 ## Conclusion
@@ -437,13 +445,16 @@ Article Title: What is machine learning? a definition
 Website Title: https://expertsystem.com/
 URL          : https://expertsystem.com/machine-learning-definition/
 
-Article Title: 
-Website Title: 
-URL          :
 
-Article Title: 
-Website Title: 
-URL          :
+#### Analysis of the data from Python:
+
+Article Title: Boxplot Demo
+Website Title: https://matplotlib.org/
+URL          : https://matplotlib.org/3.1.1/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py
+
+Article Title: Seaborn plots not showing up
+Website Title: https://stackoverflow.com
+URL          : https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up
 
 
 #### Skills / Knowledge Gap:
