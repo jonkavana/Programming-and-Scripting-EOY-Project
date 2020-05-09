@@ -202,11 +202,35 @@ We are required to produce a text fiel for the variables that are produced in ou
 The analysis that we are pulling from the data will take two formats. The first will be in the traditional tabular format, the second will be in visual, thanks to the libraries that we have imported.
 We are going to take an overview of the data into an array, a snapshot of the head and tail of the data, the tail. We are also going to extract an overview from a number of viewpoints, such as min, max, standard deviation, as well as a view of the data from each Species within the set. 
 
+
+The following will return all values for each instance in an array format.
+        
         print(IrisData.values)
+        AppendToFile(str(IrisData.values))
+
+This will provide a cursory glance at the material from the first 10 rows of data.
+        
         a = IrisData.head(10)
+        print(a)
+        AppendToFile(str(a))
+
+This will provide a cursory glance at the material from the last 10 rows of data.
+        
         b = IrisData.tail(10)
+        print(b)
+        AppendToFile(str(b))
+
+This has printed to the terminal the overall description of the data set
+        
         c = IrisData.describe
+        print(c())
+        AppendToFile(str(c()))
+
+This will allow us to view the individual names of each Iris
+        
         d = (IrisData.groupby('species').size())
+        print(d)
+        AppendToFile(str(d))
 
 All of these lines are indivudally run and are then subsequently appended to our 'Output.txt' file.
 
@@ -215,20 +239,88 @@ All of these lines are indivudally run and are then subsequently appended to our
 We are going to use some of the functionality that is part of the libraries that we have imported from matplotlib as well as the seaborn library. 
 As we have seen in our analysis in the previo;us section of the text, there are some requirements for this project. From a visualisation perspective, we need to be able to run a histogram as well as a scatter plot. 
 
-To run a histogram chart, we need to write out the following script:
+This will allow us to see the first box plot of all three species based on sepal length
+        
+        df = sns.load_dataset('iris')
+        sns.boxplot(x = df["species"], y = df["sepal_length"])
+        plt.title('Comparison of the three Sepal Lengths')
+        plt.xlabel('Difference in the Species')
+        plt.ylabel('Sepal Length')
+        plt.show()
 
-        #This as a code will print a hist of the sepal length
+This will allow us to see the first box plot of all three species based on sepal width
+        df = sns.load_dataset('iris')
+        sns.boxplot(x = df["species"], y = df["sepal_width"])
+        plt.title('Comparison of the three Sepal Widths')
+        plt.xlabel('Difference in the Species')
+        plt.ylabel('Sepal Width')
+        plt.show()
+
+This will allow us to see the first box plot of all three species based on petal length
+
+        df = sns.load_dataset('iris')
+        sns.boxplot(x = df["species"], y = df["petal_length"])
+        plt.title('Comparison of the three Petal Lengths')
+        plt.xlabel('Difference in the Species')
+        plt.ylabel('Petal Length')
+        plt.show()
+
+This will allow us to see the first box plot of all three species based on petal width
+        
+        df = sns.load_dataset('iris')
+        sns.boxplot(x = df["species"], y = df["petal_width"])
+        plt.title('Comparison of the three Petal Widths')
+        plt.xlabel('Difference in the Species')
+        plt.ylabel('Petal Width')
+        plt.show()
+
+# The following code is in relation to the histogram requirements of the project.
+# We are going to the create a histogram relationshop between our four attributes, the sepal length & width, as well as the petal length & width.
+
+This as a code will print a hist of the sepal length
+
         plt.figure(figsize = (6, 5)) 
-        SepalHist = IrisData["sepal_length"] 
-        plt.hist(SepalHist, bins = 20, color = "green") 
+        SepalLengthHist = IrisData["sepal_length"] 
+        plt.hist(SepalLengthHist, bins = 20, color = "green") 
         plt.title("Sepal Length in cm") 
         plt.xlabel("Sepal_Length_cm") 
         plt.ylabel("Count")
-        plt.savefig("SepalHist.png")
+        plt.savefig("SepalLengthHist.png")
 
-From the script above, we will be able to run a histogram chart for the Sepal Length.  If we replace the "sepal_length" with one of our other attributes, we will be able to chart these up too. Please note that the .png file wil need to be renamed to suit the attribute.
+This as a code will print a hist of the sepal width
 
-If we are looking to create scatter plot relationships between the attributes, then we need to be able write a script, leveraging the functionality of the libraries once again to produce charts. 
+        plt.figure(figsize = (6, 5)) 
+        SepalWidthHist = IrisData["sepal_width"] 
+        plt.hist(SepalWidthHist, bins = 20, color = "blue") 
+        plt.title("Sepal Width in cm") 
+        plt.xlabel("Sepal_Width_cm") 
+        plt.ylabel("Count")
+        plt.savefig("SepalWidthHist.png")
+
+This as a code will print a hist of the petal width
+
+        plt.figure(figsize = (6, 5)) 
+        PetalWidthHist = IrisData["petal_width"] 
+        plt.hist(PetalWidthHist, bins = 20, color = "red") 
+        plt.title("Petal Width in cm") 
+        plt.xlabel("Petal_Width_cm") 
+        plt.ylabel("Count")
+        plt.savefig("PetalWidthHist.png")
+
+This as a code will print a hist of the petal length
+
+        plt.figure(figsize = (6, 5)) 
+        PetalLengthHist = IrisData["petal_length"] 
+        plt.hist(PetalLengthHist, bins = 20, color = "magenta") 
+        plt.title("Petal Length in cm") 
+        plt.xlabel("Petal_Length_cm") 
+        plt.ylabel("Count")
+        plt.savefig("PetalLengthHist.png")
+
+The following code is in relation to the scatterplot requirements of the project.
+We are going to display the attributes against one another, as well as display the permutations of these instances using the seaborn library.
+
+This will return the sepal Length versus sepal width graph.
 
         plt.scatter(IrisData["sepal_length"], IrisData["sepal_width"])
         plt.title("sepal length versus sepal width")
@@ -236,7 +328,21 @@ If we are looking to create scatter plot relationships between the attributes, t
         plt.ylabel("sepal width")
         plt.show()
 
-From the script above, we will need to replace the attributes of sepal width & length with the petal length & petal width equivalents. 
+This will return the Petal Length versus Petal width graph.
+
+        plt.scatter(IrisData["petal_length"], IrisData["petal_width"])
+        plt.title("petal length versus petal width")
+        plt.xlabel("sepal length")
+        plt.ylabel("sepal width")
+        plt.show()
+
+This will return a pairplot of all permutations in one graphic
+
+        sns.pairplot(IrisData, hue="species")
+        plt.show()
+
+This concludes the runbook.
+
 
 ## Bibliography
 
