@@ -378,14 +378,8 @@ This concludes the runbook.
 
 ## Bibliography
 
-The above graphs were created with the assistance of, or refernce to the following sources:
-Boxplot graphs were created using partial code taken from [MatPlotLib Documentation](https://matplotlib.org/3.1.1/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py "Boxplots on Matplotlib")
-Prompt required for teh Seaborn Graph as referenced by [StackOverflow](https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up "Query with response")
-Reference material for the use and overview of Pandas as retrieved from [Scipy Lectures](http://scipy-lectures.org/packages/statistics/index.html "ScipyLeactures")
-Reference material for the execution of syntax structure in a scatterplt[Medium.com](https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342 "medium.com")
-Reference material for how to construct the Reference Guide on a GitHub Repository [Denis Carr](https://github.com/deniscarr/Fishers-Iris-dataset-project/blob/master/README.txt "Denis Carr")
-Reference material for initial analysis structure [RitRa](https://github.com/RitRa/Project2018-iris/blob/master/README.md "RitRa")
-Reference material for Histogram Structure [RealPython](https://realpython.com/python-histograms/ "RealPython")
+For a full list of the refernces, please see below as well as the Project2020Bibliography.txt file, where the structure aligns to the APA styleguide. 
+
 
 
 #### Markdown Research:
@@ -493,6 +487,16 @@ URL          : https://stackoverflow.com/questions/26597116/seaborn-plots-not-sh
 Article Title: Multiple Linear Regression
 Website Title: https://seaborn.pydata.org/
 URL          : https://seaborn.pydata.org/examples/multiple_regression.html
+
+The above graphs were created with the assistance of, or refernce to the following sources:
+Boxplot graphs were created using partial code taken from [MatPlotLib Documentation](https://matplotlib.org/3.1.1/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py "Boxplots on Matplotlib")
+Prompt required for teh Seaborn Graph as referenced by [StackOverflow](https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up "Query with response")
+Reference material for the use and overview of Pandas as retrieved from [Scipy Lectures](http://scipy-lectures.org/packages/statistics/index.html "ScipyLeactures")
+Reference material for the execution of syntax structure in a scatterplt[Medium.com](https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342 "medium.com")
+Reference material for how to construct the Reference Guide on a GitHub Repository [Denis Carr](https://github.com/deniscarr/Fishers-Iris-dataset-project/blob/master/README.txt "Denis Carr")
+Reference material for initial analysis structure [RitRa](https://github.com/RitRa/Project2018-iris/blob/master/README.md "RitRa")
+Reference material for Histogram Structure [RealPython](https://realpython.com/python-histograms/ "RealPython")
+
 
 
 #### Skills / Knowledge Gap:
