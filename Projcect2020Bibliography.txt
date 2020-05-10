@@ -1,0 +1,47 @@
+Programming &  Scripting Bibliography
+
+Bibliography
+Avuluri, V. S. (2019, May 13). Exploratory Data Analysis of IRIS Data Set Using Python. Retrieved from https://medium.com/: https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
+Baba, A. A. (2018, n.a n.a). Iris Flower Dataset. Retrieved from https://www.kaggle.com: https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv
+BiologyDictionary. (2017, Jan). Sepal Definition. Retrieved from https://biologydictionary.net/sepal/: https://biologydictionary.net/sepal/
+Carr, D. (2019, April 30). Fishers-Iris-dataset-project. Retrieved from https://github.com/: https://github.com/deniscarr/Fishers-Iris-dataset-project/blob/master/README.txt
+Cui, Y. (2020, April 25). The Iris Dataset — A Little Bit of History and Biology. Retrieved from https://towardsdatascience.com: https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
+Encyclopaedia Britannica. (1998, July 20). Sir Ronald Aylmer Fisher. Retrieved from https://www.britannica.com/: https://www.britannica.com/biography/Ronald-Aylmer-Fisher
+ExpertSystemsTeam. (2020, May 6). What is Machine Learning? a definiton. Retrieved from https://expertsystem.com: https://expertsystem.com/machine-learning-definition/
+Fincher, J. (n.a). Reading and Writing CSV files in python. Retrieved from https://realpython.com: https://realpython.com/python-csv/
+Fisher, R. (1936, September 1). The Use of Multiple Measurements in Taxonomic Problems. Retrieved from https://onlinelibrary.wiley.com: https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1111%2Fj.1469-1809.1936.tb02137.x&mobileUi=0
+GitHub. (2014, Jan 15). Mastering Markdown. Retrieved from https://guides.github.com/: https://guides.github.com/features/mastering-markdown/
+GitHub.com. (n.a.). Managing your work on GitHub. Retrieved from https://help.github.com: https://help.github.com/en/github/managing-your-work-on-github
+Gruber, J. (n.a.). Markdown: Syntax. Retrieved from https://daringfireball.net/: https://daringfireball.net/projects/markdown/syntax#overview
+Gupta, M. (n.a.). Box plot and Histogram exploration on Iris data. Retrieved from https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/: https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
+Hao, K. (2018, November 7). What is Machine Learning? Retrieved from https://www.technologyreview.com: https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/
+Joy, D. (2018, n.a. n.a.). Iris Data Set Classification using Neural Network. Retrieved from https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution: https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution
+Kaggle.com. (2020, April 26). Welcome. Retrieved from https://www.kaggle.com/: https://www.kaggle.com/
+Machine Learning Guide. (2017). More examples on Supervised learning. Retrieved from https://mclguide.readthedocs.io: https://mclguide.readthedocs.io/en/latest/sklearn/moreex1.html
+Markdown Guide. (n.a). Basic Syntax. Retrieved from https://www.markdownguide.org: https://www.markdownguide.org/basic-syntax/
+Markdown Guide. (n.a.). Getting Started. Retrieved from https://www.markdownguide.org: https://www.markdownguide.org/getting-started/
+matplotlib.com. (n.a.). Boxplot Demo. Retrieved from https://matplotlib.org: https://matplotlib.org/3.1.1/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py
+Merriam-Webster. (2020, April 27). taxonomy - noun. Retrieved from https://www.merriam-webster.com: https://www.merriam-webster.com/dictionary/taxonomy
+Mertz, J. (2020, April 10). Reading & Writing Files in Python. Retrieved from https://realpython.com: https://realpython.com/read-write-files-python/
+National Gardening Association. (n.a). Terminology: Genus and Species. Retrieved from https://garden.org: https://garden.org/courseweb/course1/week3/page3.htm
+NumPy.org. (2020, May 7). Glossary. Retrieved from https://numpy.org: https://numpy.org/devdocs/glossary.html?highlight=plot
+Olkin, I., & Sampson, A. (2001). Multivariate Analysis: Overview. Retrieved from https://www.sciencedirect.com: https://www.sciencedirect.com/science/article/pii/B0080430767004721
+PathMind.com. (n.a.). A Beginner's Guide to Neural Networks and Deep Learning. Retrieved from https://pathmind.com/: https://pathmind.com/wiki/neural-network#define
+Ravi, J. (2018, August 1). Machine Learning - Iris Classification. Retrieved from https://medium.com: https://medium.com/@jebaseelanravi96/machine-learning-iris-classification-33aa18a4a983
+RitRa. (2018, April 26). Project2018 - Iris. Retrieved from https://github.com: https://github.com/RitRa/Project2018-iris/blob/master/README.md
+Sahoo, S. R. (2019, April 20). How to write a readme.md file? Retrieved from https://medium.com: https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20cb7cbcd6f
+Seaborn.org. (na.). Multiple Linear Regression. Retrieved from https://seaborn.pydata.org/: https://seaborn.pydata.org/examples/multiple_regression.html
+Sembai, S. (2018, October 20). How to Create a Runbook that Rocks? Automatically is the Best Way. Retrieved from https://stepshot.net/: https://stepshot.net/how-to-create-a-runbook/
+StackOverflow.com. (2014, October 27). Seaborn Plots not showing up. Retrieved from https://stackoverflow.com: https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up
+Sturtz, J. (2020, April 10). Lists & Tuples. Retrieved from www.realpython.com: https://realpython.com/python-lists-tuples/
+UCI. (n.a). Iris Data Set. Retrieved from http://archive.ics.uci.edu: http://archive.ics.uci.edu/ml/datasets/Iris
+Wang, C. (2018, March 29). Play with classification of Iris data using gradient boosting. Retrieved from https://blogs.sas.com: https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/
+
+
+
+
+
+
+
+
+

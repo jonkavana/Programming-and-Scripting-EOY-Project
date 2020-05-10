@@ -1,6 +1,6 @@
-# An Analysis of Fishers Iris Data set
+# An Analysis of Fishers Iris Dataset
 
-## Ronald Fisher & the Iris Data Set
+## Ronald Fisher & the Iris DataSet
 
 According to the [Encyclopaedia Brittanica](https://www.britannica.com/biography/Ronald-Aylmer-Fisher "Encyclopaedia Brittanica") Sir Ronald Fisher was a British statistician, commonly known for his development of statistical procedures. Fisher graduated from Cambridge in 1912, being awarded a B.A. in Astronomy, which amongst other aspects, focused on the mathematical components of the discipline.
 
@@ -41,7 +41,7 @@ To fully appreciate the paper, there is a requirement to have an understanding f
 
 The measurements taken by Dr. Anderson and subsequently analysed by Fisher, within this dataset are unambiguous and are distinctive to each species. This transparancy is so crucial as it allows for less and less scrutiny of the datas validity.
 
-From a mathematical perspective, there is a logical sequence of events that Fisher has portrayed in the linear dimensions and how they are structuerd. That there are four different measurements, each with their own place in the formula is a positive movement as it caters for each of the attributes of Speal Length & Width, as well as Petal Length & Width. 
+From a mathematical perspective, there is a logical sequence of events that Fisher has portrayed in the linear dimensions and how they are structuerd. That there are four different measurements, each with their own place in the formula is a positive movement as it caters for each of the attributes of Sepal Length & Width, as well as Petal Length & Width. 
 
 Because of the ananlysis that Fisher performed, according to [Towards Science](https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5 "Towards Science"), the discriminant function was successful in performing its function. That is, to successfully distinguish between the three species.
 
@@ -59,11 +59,11 @@ It is at the point, in the 'Applications to the theory of Allopolyploidy' that w
 
 In relation to the layout of the mathematical components, there are some concerns too. These layout peculiarities are quite conflicitng and feel overlooked from the perspective of Fisher. He states "For reasons to be discussed later we shall estimate the variance of a single plant by dividing 1085.5522 by 95", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). This, I feel is neither a benefit to the reader, or a point that is guides us to the material for review at a later date. If a reader of this paper does not have a basic understanding of the mathematics, it adds unnecessary confusion where it is not required as well as not being dealt with.
 
-### How has the Iris Data Set been adapted to modern literature
+### How has the Iris Dataset been adapted to modern literature
 
 If you type 'Iris Dataset analysis' into a web browser, and scrape through enough of the sites returned, a common theme to be returned is in the area of Machine Learning. Machine Learning, according to [Expert System](https://expertsystem.com/machine-learning-definition/ "Expert System") is an application of artificial intelligence, by which systems learn from all experience that is stored in data, regardless of the format, without being explicitly being told to do so. According to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") it is this development of machine learning algorithms that is powering the development behind the likes of Twitter, YouTube and Facebook. 
 
-The Iris Data Set, has been used with the Support Vector Machine (SVM) by Ritvik Raj, in order to extract greater meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract value and makes for a fascinating read in his area of study. 
+The Iris Dataset, has been used with the Support Vector Machine (SVM) by Ritvik Raj, in order to extract greater meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract value and makes for a fascinating read in his area of study. 
 
 Having discovered that the SVM model was the most accurate withing his experimentation Raj ran it against the test dataset using the following code: 
 
@@ -78,7 +78,7 @@ This produced an accuracy result of 91%, whilst a confusion matrix using the skl
 
 In the area of machine learning, there is a model known as Gradient Boosting. Gradient boosting is used in the classification of data, according to [Cindy Wang](https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/ "Cindy Wang"). Wang provides an introductory overview of visual data mining as well as a machine learning product being utiliised, whilst leveraging Fisher's dataset to show its capability. Within this report there is no code shared, but visuals of the output to be displayed.
 
-The data set has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped however loosely on the brain. The purpose of neural networking is to develop and recognize patterns. It is also used to cluster and aid with the classification, per the same source. We can see that the Fisher Data Set has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle"). 
+The dataset has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped however loosely on the brain. The purpose of neural networking is to develop and recognize patterns. It is also used to cluster and aid with the classification, per the same source. We can see that the Fisher Dataset has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle"). 
 
 Below we can see part of the code extracted from the script:
 
@@ -164,7 +164,7 @@ As detailed above, this is the code to be used to return the imagery.
 
 It is probably the most important takeaway from the paper itself, that Fisher highlights the difficulty in seperating out the difference between the Iris Virginica and the Iris Versicolor. The inability to distnguish the two apart can not be based solely, he says, "on these four measurements of a single flower taken on a plant growing wild." [Fisher, 1936](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Fisher") . That fisher himself has recorded this opinion in the paper is signiifcant.
 
-One of the my biggest takeaways from this data set is its' ability to stand above scrutiny over such a period of time. The dataset has adapted from a research into distinguishing species in the world of taxonomy, to being an important milestone in data clustering, as well Machine Learning amongst other areas of study.  
+One of the my biggest takeaways from this dataset is its' ability to stand above scrutiny over such a period of time. The dataset has adapted from a research into distinguishing species in the world of taxonomy, to being an important milestone in data clustering, as well Machine Learning amongst other areas of study.  
 
 It is a testament to the quality of the research that more than eighty years later, the mathematical principles that Fisher recorded are still in use and being applied to new areas of research. 
 
@@ -239,7 +239,7 @@ This will provide a cursory glance at the material from the last 10 rows of data
         print(b)
         AppendToFile(str(b))
 
-This has printed to the terminal the overall description of the data set
+This has printed to the terminal the overall description of the dataset
         
         c = IrisData.describe
         print(c())
@@ -360,6 +360,19 @@ This will return a pairplot of all permutations in one graphic
         sns.pairplot(IrisData, hue="species")
         plt.show()
 
+To demonstrate some of the linear functions in the dateset, leveraging the functionality of seaborn. 
+        sns.set()
+        g = sns.lmplot(x="sepal_length", y = "sepal_width", hue = "species", height = 5, data=IrisData) # pairing sepal length against its width, for all species.
+        g.set_axis_labels("Sepal length (mm)", "Sepal width (mm)")
+        plt.show()
+
+        sns.set()
+        g = sns.lmplot(x="petal_length", y = "petal_width", hue = "species", height = 5, data=IrisData) # pairing sepal length against its width, for all species.
+        g.set_axis_labels("Petal length (mm)", "Petal width (mm)")
+        plt.show()
+
+These will produce very clear and concise visuals of the dataset, as we macth up the sepal length against sepal width, as well as petal length and petal width. These linear regression models were created based from research of the code detailed on the [Seaborn Library](https://seaborn.pydata.org/examples/multiple_regression.html "Seaborn")
+
 This concludes the runbook.
 
 
@@ -397,7 +410,7 @@ Article Title: Basic Syntax
 Website Title: https://www.markdownguide.org
 URL          : https://www.markdownguide.org/basic-syntax/
 
-#### Fishers DataSet: 
+#### Fishers Dataset: 
 
 Article Title: Iris Flower Dataset used for multi-class classification
 Website Title: www.Kaggle.com
@@ -477,6 +490,10 @@ Article Title: Seaborn plots not showing up
 Website Title: https://stackoverflow.com
 URL          : https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up
 
+Article Title: Multiple Linear Regression
+Website Title: https://seaborn.pydata.org/
+URL          : https://seaborn.pydata.org/examples/multiple_regression.html
+
 
 #### Skills / Knowledge Gap:
 
@@ -520,12 +537,12 @@ On reading the information that is contained in the project there are a number o
 
 Project Breakdown:
     Section A) Fishers Data Set
-        1) Find a data set that contains the original clean copy of the data set. - completed
-            1.1) Data set has been found - completed
+        1) Find a dataset that contains the original clean copy of the dataset. - completed
+            1.1) Dataset has been found - completed
             1.2) Test to read in csv file - completed
             1.3) Analysis - completed
                 1.3.1) reference to Section B Task 6 - completed
-        2) Perform a research of the data set and why it is under analysis - completed
+        2) Perform a research of the dataset and why it is under analysis - completed
             2.1) review of fisher biography - completed
             2.2) review of the paper and its conclusions - completed
             2.3) praise for the set - completed
@@ -534,7 +551,7 @@ Project Breakdown:
             2.6) its link to the data analysis performed today. - completed
         
     Section B) Expected Output:
-        4) Research from the information about Fishers data set are to be commited to the READ.md file - completed.
+        4) Research from the information about Fishers dataset are to be commited to the READ.md file - completed.
             4.1) This file in its entirety will need to be added into the read.md file. - completed
         5) Download the data - completed
             5.1) Add it to the repository - completed
