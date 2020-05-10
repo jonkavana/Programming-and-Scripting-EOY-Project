@@ -80,13 +80,14 @@ plt.show()
 # We are going to the create a histogram relationshop between our four attributes, the sepal length & width, as well as the petal length & width.
 
 # This as a code will print a hist of the sepal length
+
 plt.figure(figsize = (6, 5)) 
 SepalLengthHist = IrisData["sepal_length"] 
 plt.hist(SepalLengthHist, bins = 20, color = "green") 
 plt.title("Sepal Length in cm") 
 plt.xlabel("Sepal_Length_cm") 
 plt.ylabel("Count")
-plt.savefig("SepalLengthHist.png")
+# plt.savefig("SepalLengthHist.png") - no longer needs to be printed to be saved to the file
 
 plt.figure(figsize = (6, 5)) 
 SepalWidthHist = IrisData["sepal_width"] 
@@ -94,7 +95,7 @@ plt.hist(SepalWidthHist, bins = 20, color = "blue")
 plt.title("Sepal Width in cm") 
 plt.xlabel("Sepal_Width_cm") 
 plt.ylabel("Count")
-plt.savefig("SepalWidthHist.png")
+# plt.savefig("SepalWidthHist.png") - no longer needs to be printed to be saved to the file
 
 plt.figure(figsize = (6, 5)) 
 PetalWidthHist = IrisData["petal_width"] 
@@ -102,7 +103,7 @@ plt.hist(PetalWidthHist, bins = 20, color = "red")
 plt.title("Petal Width in cm") 
 plt.xlabel("Petal_Width_cm") 
 plt.ylabel("Count")
-plt.savefig("PetalWidthHist.png")
+# plt.savefig("PetalWidthHist.png")- no longer needs to be printed to be saved to the file
 
 plt.figure(figsize = (6, 5)) 
 PetalLengthHist = IrisData["petal_length"] 
@@ -110,7 +111,7 @@ plt.hist(PetalLengthHist, bins = 20, color = "magenta")
 plt.title("Petal Length in cm") 
 plt.xlabel("Petal_Length_cm") 
 plt.ylabel("Count")
-plt.savefig("PetalLengthHist.png")
+# plt.savefig("PetalLengthHist.png")- no longer needs to be printed to be saved to the file
 
 
 # The following code is in relation to the scatterplot requirements of the project.
@@ -124,9 +125,32 @@ plt.show()
 
 plt.scatter(IrisData["petal_length"], IrisData["petal_width"])
 plt.title("petal length versus petal width")
-plt.xlabel("sepal length")
+plt.xlabel("petal length")
 plt.ylabel("sepal width")
 plt.show()
 
+plt.scatter(IrisData["petal_length"], IrisData["sepal_length"])
+plt.title("petal length versus sepal length")
+plt.xlabel("petal length")
+plt.ylabel("sepal length")
+plt.show()
+
+plt.scatter(IrisData["sepal_length"], IrisData["petal_width"])
+plt.title("sepal length versus petal width")
+plt.xlabel("sepal length")
+plt.ylabel("petal width")
+plt.show()
+
 sns.pairplot(IrisData, hue="species")
+plt.show()
+
+# To demonstrate some of teh linear functions in the dateset, leveraging the functionality of seaborn. 
+sns.set()
+g = sns.lmplot(x="sepal_length", y = "sepal_width", hue = "species", height = 5, data=IrisData) # pairing sepal length against its width, for all species.
+g.set_axis_labels("Sepal length (mm)", "Sepal width (mm)")
+plt.show()
+
+sns.set()
+g = sns.lmplot(x="petal_length", y = "petal_width", hue = "species", height = 5, data=IrisData) # pairing sepal length against its width, for all species.
+g.set_axis_labels("Petal length (mm)", "Petal width (mm)")
 plt.show()
