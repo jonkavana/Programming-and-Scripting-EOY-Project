@@ -146,8 +146,14 @@ Fisher, writing in Section "The analogy of partial regression", speaks of the an
 **Lmplot graph**
 ![Sepal Length plotted against Sepal Width](Images-from-Analysis/LinearRegression.png)
 
+As we can see from the image above, we have a simple plotting of the sepal length against the sepal width for all three species as called out in the legend.The graph very simply demonstrates the difference in the relationships between each sepacies and these components. Within each species, we can see that there is a corresponding line that runs from bottom left to top right, within the structure of the data for its respective species. Thia is the linear regression line that attempts to plot the relationship beteen the two variables.
+
 **Lmplot graph**
 ![Petal Length plotted against Petal Width](Images-from-Analysis/LinearRegression2.png)
+
+
+In the same manner as the description above, there is a relationship between the petal length and the petal width for each of the three species. This has the same characterisitics as the image that came before it, except that the trajectory for the line demonstrating linear regression, will be different because of the recorded values being different. 
+
 
         g = sns.lmplot(x="petal_length", y = "petal_width", hue = "species", height = 5, data=IrisData)
 
