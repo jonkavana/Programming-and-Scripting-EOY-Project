@@ -378,7 +378,8 @@ This concludes the runbook.
 
 ## Bibliography
 
-For a full list of the refernces, please see below as well as the Project2020Bibliography.txt file, where the structure aligns to the APA styleguide. 
+For a full list of the refernces, please see below as well as the Project2020Bibliography.txt file, where the structure aligns to the APA styleguide.
+Failing that, there is a word document version that is available to view in the repository.  
 
 
 
@@ -524,64 +525,58 @@ URL          : https://www.oreilly.com/programming/free/files/a-whirlwind-tour-o
 ### Project Management Overview.txt
 This will act as a log of the project from commencement to cessation. 
 the intent with this project will be to review the problem set and to detail a work breakdown structure
-within each breakdown, there is going to be smaller units of activity that need to be completed, and at this stage
+within each breakdown, there is going to be smaller units of activity that need to be completed, and at this stage they will be shown in the structure of:
+        Section 'X'
+                Activity '1'
+                        Task '1.1'
+                                Sub-Task '1.1.1'
 
-They will be shown in the structure of:
-    Section 'A'
-        Activity '1'
-            Task '1.1'
-                Sub-Task '1.1.1'
-
-This is the intended approach of the project, but it will be reviesed on an iterative basis as the project develops. 
-
-The first Breakdown will be in relaition to the problem set that has been detailed on the GMIT Site. For a copy of this brief, there is a pdf copy available in this repository for reiiew.
-This document is intended as a complimentary document to the expected outcomes of the project. 
-
-On reading the information that is contained in the project there are a number of areas that need to be reivewied. 
+This is the intended approach of the project, but it will be reviesed on an iterative basis as the project develops. There will be updtes communicated via the commit command when work is being saved to the repository. The first Breakdown will be in relaition to the problem set that has been detailed on the GMIT Site. For a copy of this brief, there is a pdf copy available in this repository for review. This document is intended as a complimentary document to the expected outcomes of the project. On reading the information that is contained in the project there are a number of areas that need to be reivewied. 
 
 Project Breakdown:
-    Section A) Fishers Data Set
-        1) Find a dataset that contains the original clean copy of the dataset. - completed
-            1.1) Dataset has been found - completed
-            1.2) Test to read in csv file - completed
-            1.3) Analysis - completed
-                1.3.1) reference to Section B Task 6 - completed
-        2) Perform a research of the dataset and why it is under analysis - completed
-            2.1) review of fisher biography - completed
-            2.2) review of the paper and its conclusions - completed
-            2.3) praise for the set - completed
-            2.4) criticism of the set - completed
-            2.5) Conclusion of the paper with analysis - completed
-            2.6) its link to the data analysis performed today. - completed
-        
-    Section B) Expected Output:
-        4) Research from the information about Fishers dataset are to be commited to the READ.md file - completed.
-            4.1) This file in its entirety will need to be added into the read.md file. - completed
-        5) Download the data - completed
-            5.1) Add it to the repository - completed
-                5.1.1) Reference to Section A - 1). - completed
-        6) Write an analysis called analysis.py, which contains:
-            6.1) Output of each variable to a single text file - completed
-            6.2) Saves a histogram of each variable of png file type - completed
-            6.3) Outputs a scatter plot of each pair of variables.- completed
-            6.4) Prepare all of the above as if were to be presented, but contained in the git hub repository, specifically in relation to the code. - completed 
 
-    Section C) Minimum Acceptance standards breakdown per file to be submitted:
-        7) README
-            7.1) Summary of the dataset as well as the investigations into it. - completed
-            7.2) Runbook of how to run the code from start to finish. - completed
-                7.2.1) Full list of the library that has been used to be added into the runbook. - completed
-                7.2.2) Data Import - completed
-                7.2.3) How to run the programme from start to finish -completed 
-            7.3) Fill list of references for all sources for all aspects of the project. - completed
-        8) Python Script - completed
-        9) Summary Text File - completed
+        Section A) Fishers Data Set
+                1) Find a dataset that contains the original clean copy of the dataset. - completed
+                        1.1) Dataset has been found - completed
+                        1.2) Test to read in csv file - completed
+                        1.3) Analysis - completed
+                                1.3.1) reference to Section B Task 6 - completed
+                2) Perform a research of the dataset and why it is under analysis - completed
+                        2.1) review of fisher biography - completed
+                        2.2) review of the paper and its conclusions - completed
+                        2.3) praise for the set - completed
+                        2.4) criticism of the set - completed
+                        2.5) Conclusion of the paper with analysis - completed
+                        2.6) its link to the data analysis performed today. - completed
+                
+        Section B) Expected Output:
+                4) Research from the information about Fishers dataset are to be commited to the READ.md file - completed.
+                        4.1) This file in its entirety will need to be added into the read.md file. - completed
+                5) Download the data - completed
+                        5.1) Add it to the repository - completed
+                                5.1.1) Reference to Section A - 1). - completed
+                6) Write an analysis called analysis.py, which contains:
+                        6.1) Output of each variable to a single text file - completed
+                        6.2) Saves a histogram of each variable of png file type - completed
+                        6.3) Outputs a scatter plot of each pair of variables.- completed
+                        6.4) Prepare all of the above as if were to be presented, but contained in the git hub repository, specifically in relation to the code. - completed 
 
-    Section D) Skills / Knowledge Gap:
-        10) Overview of git and how to structure a project file / folder -  completed
-        11) Review of the standards and principles that are considered best practise for a markdown file - completed. 
-            11.1) Review of the pseudo styling as spoken about it in the video. - completed
-            11.2) Open up the read.md file in a text editor and test to see how changes in the indentation will look once the y have been pused to github repository. - completed
-        12) Need to review how to display pdf in VS Code or remove file. - completed
-        13) What is a high level overview of a runbok for running the code aspect of the analysis. - completed
-        14) Referencing of the information to be structured - completed
+        Section C) Minimum Acceptance standards breakdown per file to be submitted:
+                7) README
+                        7.1) Summary of the dataset as well as the investigations into it. - completed
+                        7.2) Runbook of how to run the code from start to finish. - completed
+                                7.2.1) Full list of the library that has been used to be added into the runbook. - completed
+                                7.2.2) Data Import - completed
+                                7.2.3) How to run the programme from start to finish -completed 
+                        7.3) Fill list of references for all sources for all aspects of the project. - completed
+                8) Python Script - completed
+                9) Summary Text File - completed
+
+        Section D) Skills / Knowledge Gap:
+                10) Overview of git and how to structure a project file / folder -  completed
+                11) Review of the standards and principles that are considered best practise for a markdown file - completed. 
+                        11.1) Review of the pseudo styling as spoken about it in the video. - completed
+                        11.2) Open up the read.md file in a text editor and test to see how changes in the indentation will look once the y have been pused to github repository. - completed
+                12) Need to review how to display pdf in VS Code or remove file. - completed
+                13) What is a high level overview of a runbok for running the code aspect of the analysis. - completed
+                14) Referencing of the information to be structured - completed
