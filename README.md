@@ -140,6 +140,20 @@ In order to create the above, we have used the following code:
 
         sns.pairplot(IrisData, hue="species")
 
+
+Fisher, writing in Section "The analogy of partial regression", speaks of the analysis of the variance on portions of each species accountable by linear regression. To put this in a graphical representation, we have the two following displays. 
+
+**Lmplot graph**
+![Sepal Length plotted against Sepal Width](Images-from-Analysis/LinearRegression.png)
+
+**Lmplot graph**
+![Petal Length plotted against Petal Width](Images-from-Analysis/LinearRegression2.png)
+
+        g = sns.lmplot(x="petal_length", y = "petal_width", hue = "species", height = 5, data=IrisData)
+
+As detailed above, this is the code to be used to return the imagery.
+
+
 ## Conclusion
 
 It is probably the most important takeaway from the paper itself, that Fisher highlights the difficulty in seperating out the difference between the Iris Virginica and the Iris Versicolor. The inability to distnguish the two apart can not be based solely, he says, "on these four measurements of a single flower taken on a plant growing wild." [Fisher, 1936](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Fisher") . That fisher himself has recorded this opinion in the paper is signiifcant.
