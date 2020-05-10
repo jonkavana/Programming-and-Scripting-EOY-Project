@@ -5,24 +5,20 @@
 According to the [Encyclopaedia Brittanica](https://www.britannica.com/biography/Ronald-Aylmer-Fisher "Encyclopaedia Brittanica") Sir Ronald Fisher was a British statistician, commonly known for his development of statistical procedures. Fisher graduated from Cambridge in 1912, being awarded a B.A. in Astronomy, which amongst other aspects, focused on the mathematical components of the discipline.
 
 
-In 1936 he published the work that we are analysing in this project entitled "The use of multiple measurements in taxonomic problems", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library").
-
- However, it was only upon reading the paper and researching it further that it became clear that the dataset is sometimes refered to as the Anderson dataset. According to Fisher himself, as per [Wiley Online Library](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"), Dr. Anderson is the man who performed all of the physical recording of the measurements on the Iris species. It was Fisher who performed the analysis on these individual instances.
+In 1936 he published the work that we are analysing in this project entitled "The use of multiple measurements in taxonomic problems", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). It was only upon reading the paper and researching it further that it became clear that the dataset is sometimes refered to as the Anderson dataset. According to Fisher himself, as per [Wiley Online Library](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"), Dr. Anderson is the man who performed all of the physical recording of the measurements on the Iris species. It was Fisher who performed the analysis on these individual instances.
 
 
-Before undertaking any detailed primary or secondary analysis, there are some high level observations that can be taken from the material ahead of time. 
-
-According to the [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects to be highlighted by the reserach undertaken by Fisher. This extends to features such as characteristics, instances and attributes. It is in this review that the claim of four attributes is to be found. And although this may be thrue for the areas of machine learning, upon reading other material and for the purposes of this research, based on observing the data, there are actually five. This is also the case according to the dataset review by [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd"). This fifth attribute is the Iris genus, the collection of all Iris sub-species. Below is a table of a very high-level view of this information.
+Before undertaking any detailed primary or secondary analysis, there are some high level observations that can be taken from the material ahead of time. According to the [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI") there are a number of aspects to be highlighted by the reserach undertaken by Fisher. This extends to features such as characteristics, instances and attributes. It is in this review that the claim of four attributes is to be found. This may be true for the areas of machine learning, upon reading from other sources of material, and for the purposes of this research, based on observing the data, there are actually five. This is the case according to the dataset review by [Arshid Aslam Baba](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "Arshid Aslam Baba"). This fifth attribute is the Iris genus, the collection of all Iris sub-species. Below is a high-level view of this information.
 
 |Characteristics| Instances| Attributes|
 |---------------|----------|-----------|
 | Multivariate  |    150   |     5     | 
 
-According to [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI"), the dataset itself is a multivariate dataset. In this context and with respect to data, multivariate analysis in datasets refers to the number of variables that are under examination. According to [ScienceDirect](https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis "ScienceDirect") it is the experimentation of multiple measurements on an experimental unit, for which the relationship between the units are important. This is the scientific component within the name of the paper, where multiple measurements are explicitly referenced.
+According to the [UCI](http://archive.ics.uci.edu/ml/datasets/Iris "UCI"), the dataset itself is a multivariate dataset. In this context and with respect to data, multivariate analysis in datasets refers to the number of variables that are under examination. According to [ScienceDirect](https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis "ScienceDirect") it is the experimentation of multiple measurements on an experimental unit, for which the relationship between the units are important. This is the scientific component within the name of the paper, where multiple measurements are explicitly referenced.
 
 In terms of the Taxonomy, this is of importance as Fisher was experimenting on data in relation to the Iris. The Iris, as stated previously is the genus, or collective term for similar plants, for this colllective. More specifically the sub sections, or Species, are the Setosa, Virginica and Versicolor. This will be dealt with in the later stages of this analysis.
 
-The five attributes, or variables, highlighted on the site Kaggle by [MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd") are detailed in the list below. The first four attributes are the measurements taken from the 150 instances recorded, with the fifth being the type of Iris.
+The five attributes, or variables, highlighted on the site Kaggle by [Arshid Aslam Baba](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "Arshid Aslam Baba") are detailed in the list below. The first four attributes are the measurements taken from the 150 instances recorded, with the fifth being the class of Iris.
 
 These are listed as: 
  - Sepal Length
@@ -31,41 +27,43 @@ These are listed as:
  - Petal Width
  - Classs (Species)
 
-Sepal, by way of distinction to a petal, is the outermost part of the Iris flower according to [Biology Dictionary](https://biologydictionary.net/sepal/ "Biology Dictionary"). These are important attriubtes to focus on, as they allow for a clear pattern for distinguishing between the different types of Iris. The variances of size as detailed by Fisher too, will show a distinguishing trend between the sepal and petal.
+Sepal, by way of distinction to a petal, is the outermost part of the Iris flower according to [Biology Dictionary](https://biologydictionary.net/sepal/ "Biology Dictionary"). These are important attributes to focus on, as they allow for a clear pattern for distinguishing between the different types of Iris. The variances of size as detailed by Fisher too, will show a distinguishing trend between the sepal and petal.
 
-Fisher sought to apply this discipline to taxonomy [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library") by way of measuring the difference in Iris Flowers. Approaching it with his background in mathematics, his work also harnassed the concept of "linear functions of the measurements by which the populations are best discriminate". Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/dictionary/taxonomy "Merriam-Webster") is the "general principles of scientific classification" as they apply to flowers. We can see that this is the highest point at which the two disciplines are merging, mathematical concepts and the classification of flowers. 
+Fisher sought to apply this discipline to taxonomy by way of measuring the difference in Iris Flowers. Approaching it with his background in mathematics, his work also harnassed the concept of "linear functions of the measurements by which the populations are best discriminate" as deatiled in [Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library").
+
+Taxonomy, according to [Merriam-Webster](https://www.merriam-webster.com/dictionary/taxonomy "Merriam-Webster") is the "general principles of scientific classification" as they apply to flowers. We can see that this is the highest point at which the two disciplines are merging, mathematical concepts and the classification of flowers. 
 
 ### Praise for the Literature
 
-To fully appreciate the paper, there is a requirement to have an understanding for the reoccuring language within it. In this case, I am speaking about 'species' and 'genus'. Genus is the collective term for similar plants, according to the [National Gardening Association](https://garden.org/courseweb/course1/week3/page3.htm "NGA"). The term species, can only refer to the name of the specific plant within the genus per the same source. 
+To fully appreciate the paper, there is a requirement to have an understanding for the reoccuring language within it. In this case, in relation to the terms  'species' and 'genus'. Genus is the collective term for similar plants, according to the [National Gardening Association](https://garden.org/courseweb/course1/week3/page3.htm "NGA"). The term species, can only refer to the name of the specific plant within the genus per the same source. 
 
-The measurements taken by Dr. Anderson and subsequently analysed by Fisher, within this dataset are unambiguous and are distinctive to each species. This transparancy is so crucial as it allows for less and less scrutiny of the datas validity.
+The measurements taken by Dr. Anderson and subsequently analysed by Fisher, within this dataset are unambiguous and are distinctive to each species and the elements of its composition. This transparancy is so crucial as it allows for less and less scrutiny of the datas validity.
 
 From a mathematical perspective, there is a logical sequence of events that Fisher has portrayed in the linear dimensions and how they are structuerd. That there are four different measurements, each with their own place in the formula is a positive movement as it caters for each of the attributes of Sepal Length & Width, as well as Petal Length & Width. 
 
 Because of the ananlysis that Fisher performed, according to [Towards Science](https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5 "Towards Science"), the discriminant function was successful in performing its function. That is, to successfully distinguish between the three species.
 
-One of the greaest pieces of praise that can be said of this paper is its longevity and adaptability to new areas of study, which will be spoken about in greater detail later on. 
+One of the greaest pieces of praise that can be said of this paper is its longevity and adaptability to new areas of study, which will be spoken about in greater detail later on in the scetion titled "The Iris Dataset in modern literature". 
 
 ### Criticism of the literature
 
-As mentioned previously in this analysis, there are three specific species that have been detailed in the collection. However, as detailed under the 'Arithmetical Procedure' there are only of the three that have been acknowledged. According to the 'Arithmetical Procedure' section of the paper, there were only two species taken from the first set of Iris. These were the Iris Setosa and the Iris Versicolor. This has been done without any mention of the Iris VIrginica whatsoever, despite it being detailed in the abstract of this widely used paper.
+As mentioned previously in this analysis, there are three specific species that have been detailed in the collection. However, as detailed under the 'Arithmetical Procedure' there are only two of the three that have been acknowledged. According to the 'Arithmetical Procedure' section of the paper, there were only two species taken from the Iris. These were the Iris Setosa and the Iris Versicolor. This has been done without any mention of the Iris Virginica whatsoever, despite it being detailed in the abstract of this widely cited paper.
 
-Then, without any mention of the third species, we are now introduced to a variation in the genus, the Iris Viriginica. This piece of information is planted into a table under 'Arithmetical Procedure'section. This was a confusing element to stumble across as there is no mention of it until we read the table, at which point it is dropped again from the mathematical analysis in Table 2 "Observed means for two species and their difference (cm)". 
+Without any mention of this third species, the Iris Viriginica, it is detailed as a piece of information in a table under 'Arithmetical Procedure'section. This was a confusing element to stumble across as there is no mention of it until we read the table. ONce this table ends, the Iris Virginica is dropped again from the mathematical analysis in Table 2 "Observed means for two species and their difference (cm)". 
 
 Furthermore, there is no mention of why there is a third species as part of this paper until we reach a much later stage of the paper. This is only done once all mathematic foundations are in place. That there is no mention of the Iris Virginica outside of this table, serves the paper poorly in my opinion. There is no purpose or intended relevance to be garnered. There is also no apparent significance attached to the rationale provided by the author as to its ommission. 
 
-It is at the point, in the 'Applications to the theory of Allopolyploidy' that we discover that the first two species were measured within the same natural colony. We discover that the third was taken from somewhere else by Dr. Anderson. There has been a significant amount of mathematical preparation and calculation completed before this detail is revealed. Fisher does address this issue, eventually, with an acknowledgement of stating that it may 'disturb the mean and their variabilities' [Wiley Online Library](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). To me, this is not a minor oversight as it introduces an opaque view of the experimentation. 
+It is at the point, in the 'Applications to the theory of Allopolyploidy' that we discover that the first two species were measured within the same natural colony. We discover that the third was taken from somewhere else by Dr. Anderson. There has been a significant amount of mathematical preparation and calculation completed before this detail is revealed. Fisher does address this issue, eventually, with an acknowledgement of stating that it may 'disturb the mean and their variabilities' as per [Wiley Online Library](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). To me, this is not a minor oversight as it introduces an opaque view of the experimentation. 
 
-In relation to the layout of the mathematical components, there are some concerns too. These layout peculiarities are quite conflicitng and feel overlooked from the perspective of Fisher. He states "For reasons to be discussed later we shall estimate the variance of a single plant by dividing 1085.5522 by 95", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). This, I feel is neither a benefit to the reader, or a point that is guides us to the material for review at a later date. If a reader of this paper does not have a basic understanding of the mathematics, it adds unnecessary confusion where it is not required as well as not being dealt with.
+In relation to the layout of the mathematical components, there are some concerns too. These layout peculiarities are quite conflicting and feel overlooked from the perspective of Fisher. He states "For reasons to be discussed later we shall estimate the variance of a single plant by dividing 1085.5522 by 95", retrieved from [Wiley Online Library](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Wiley Online Library"). This, I feel is neither a benefit to the reader, or a point that guides us to the material for review at a later point.
 
-### How has the Iris Dataset been adapted to modern literature
+### The Iris Dataset in modern literature
 
 If you type 'Iris Dataset analysis' into a web browser, and scrape through enough of the sites returned, a common theme to be returned is in the area of Machine Learning. Machine Learning, according to [Expert System](https://expertsystem.com/machine-learning-definition/ "Expert System") is an application of artificial intelligence, by which systems learn from all experience that is stored in data, regardless of the format, without being explicitly being told to do so. According to [MIT](https://www.technologyreview.com/2018/11/17/103781/what-is-machine-learning-we-drew-you-another-flowchart/ "MIT") it is this development of machine learning algorithms that is powering the development behind the likes of Twitter, YouTube and Facebook. 
 
 The Iris Dataset, has been used with the Support Vector Machine (SVM) by Ritvik Raj, in order to extract greater meaning. According to [Ritvik Raj](https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/ "Ritvik Raj") to test against the algorithm to extract value and makes for a fascinating read in his area of study. 
 
-Having discovered that the SVM model was the most accurate withing his experimentation Raj ran it against the test dataset using the following code: 
+Having discovered that the SVM model was the most accurate within his experimentation Raj ran it against the test dataset using the following code: 
 
         knn = KNeighborsClassifier()
         knn.fit(X_train, Y_train)
@@ -76,11 +74,11 @@ Having discovered that the SVM model was the most accurate withing his experimen
 
 This produced an accuracy result of 91%, whilst a confusion matrix using the sklearn library highlights that there are areas that can be worked on to further improve the accuracy.
 
-In the area of machine learning, there is a model known as Gradient Boosting. Gradient boosting is used in the classification of data, according to [Cindy Wang](https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/ "Cindy Wang"). Wang provides an introductory overview of visual data mining as well as a machine learning product being utiliised, whilst leveraging Fisher's dataset to show its capability. Within this report there is no code shared, but visuals of the output to be displayed.
+In the area of machine learning, there is a model known as Gradient Boosting. Gradient boosting is used in the classification of data, according to [Cindy Wang](https://blogs.sas.com/content/sgf/2018/03/29/play-with-classification-of-iris-data-using-gradient-boosting/ "Cindy Wang"). Wang provides an introductory overview of visual data mining as well as a machine learning product being utiliised, whilst leveraging Fisher's dataset to show its capability. Within this report there is no code shared, but visuals of the output can be viewed.
 
-The dataset has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped however loosely on the brain. The purpose of neural networking is to develop and recognize patterns. It is also used to cluster and aid with the classification, per the same source. We can see that the Fisher Dataset has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle"). 
+The dataset has also successfully been used in the area of neural networking. Neural Networking as defined by [Pathmind](https://pathmind.com/wiki/neural-network#define "Pathmind") is an algorithm that is mapped however loosely on the brain. The purpose of neural networking is to develop and recognize patterns. It is also used to cluster and aid with the classification process, per the same source. We can see that the Fisher Dataset has been used in this area based on the work of [David Joy](https://www.kaggle.com/azzion/iris-data-set-classification-using-neural-network/execution "David Joy") and the scripts that he has posted to [Kaggle](https://www.kaggle.com/ "Kaggle"). 
 
-Below we can see part of the code extracted from the script:
+Below we can see a snippet of the code extracted from the script:
 
         tf.reset_default_graph()
         (n_x, m) = X_train_flatten.shape       # shape of X                    
@@ -93,7 +91,7 @@ This code is being used to display the value for the five attributes in the data
 
 ## Analysis of the data from Python
 
-**Overview of the Dataset:**
+**Overview of the Dataset**
 ![Overview of the dataset](Images-from-Analysis/Describe.PNG)
 
 The information above has been extracted from the iris dataset. There are four variables that are to be analysed, namely "Sepal Length", "Sepal Width", "Petal Length", "Petal Width". 
@@ -102,11 +100,12 @@ The information above has been extracted from the iris dataset. There are four v
 
 We can see that there is a considerable difference in the mean between the Sepal Length and the Petal Length. This logically stands to reason, as previously mentioned, the Sepal is the outer cover of the plant, so it would cover more surface area. 
 
-**Species in the Dataset:**
+**Species in the Dataset**
 
 ![Seperating the Iris by Species](Images-from-Analysis/Species.PNG)
 
-One of the most important aspects of the data, is that it is comprised of the Iris Genus. This is the collective term used when there are similar flowers in a set. The image above is an extraction of the individual species. To extract the information from the data, we run the following code:
+One of the most important aspects of the data, is that it is comprised of the Iris Genus. This is the collective term used when there are similar flowers in a set. The image above is an extraction of the individual species. to demonstrate how far we have come from the collection of this data, we need to remmember that Fisher himself acknowledged the difficulty in being able to accurately capture the differences within the Iris genus. With this in mind, we ahve been able to extract the types of the species.
+To extract the information from the data, we run the following code:
 
         d = (IrisData.groupby('species').size())
 
@@ -114,39 +113,40 @@ One of the most important aspects of the data, is that it is comprised of the Ir
 **Comparison of the three Sepal Lengths**
 ![Sepal Length comparison between the three Iris Types](Images-from-Analysis/SepalLength.png)
 
-As we can see in the image above, there is a considerable difference in the distribution in three tyes of species in relation to the sepal length. We can see that the greatest delta is between the Setosa and the Virginica, with a span of Setosa box being more narrow than that of the Virginica. It's an important reminder to be conscience of that the Sepal is the outer leaf on the Iris plant.
+As we can see in the image above, there is a considerable difference in the distribution in three tyes of species in relation to the sepal length. We can see that the greatest delta is between the Setosa and the Virginica, with the span of the Setosa box being more narrow than that of the Virginica. It's an important reminder to be conscience of that the Sepal is the outer leaf on the Iris plant. One can determine that the size of the length of the Virginica in comparison to the Setosa is considerably larger.
 
 **Comparison of the three Sepal Widths**
 ![Sepal Width comparison between the three Iris Types](Images-from-Analysis/SepalWidth.png)
 
-It is clear to see that there are a number of differences in relation to Sepal Width, with a role reversal to be seen between the Setosa and the Virginica. Based on the divisional line between the setosa, there is a majority of the instances captured where the width exceeds the average.
+It is clear to see that there are a number of differences in relation to Sepal Width, with a role reversal to be seen between the Setosa and the Virginica. Based on the divisional line between the setosa, there is a majority of the instances captured where the width exceeds the average. One can determine that the size of the width of the Setosa in comparison to the Virginica is larger, in the context of its sepal.
 
 **Comparison of the three Petal Lengths**
 ![Petal Length comparison between the three Iris Types](Images-from-Analysis/PetalLength.png)
 
-In terms of what we can take from the length of the petal the VIrginica is considerably longer relative to both the setosa and the versicolor. 
+In terms of what we can see in relation to the length of the petal the Virginica is considerably longer relative to both the Setosa and the Versicolor. The span of measurements for the Setosa is is very acute. There is not much in the difference across the 50 instances captured. The Iris versicolor, the third flower in the iris dataset, having been seperately captured, is closer still to the Iris Virgininca.   
 
 **Comparison of the three Petal Widths**
 ![Sepal Width comparison between the three Iris Types](Images-from-Analysis/PetalWidth.png)
 
-Finally, we have the comparison between the three different petal widths. The Virginica again has shown to be the widest, with the setosa being the least wide. 
+Finally, we have the comparison between the three different petal widths. The Virginica again has shown to be the widest, with also the widest span of measured petals across the 50 instances. The setosa being the least wide when determining the size of the petals. 
 
 **Pairplot graph**
 ![All four attributes in a matrix](Images-from-Analysis/seaborn.png)
 
-We can also see in the image below, which was created using the Seaborn library, the relationships that are possible between these attributes. It has marked out in a four by four matrix format all the permutations of the four attributes.
+We can also see in the image above, which was created using the [Python Basics](https://pythonbasics.org/seaborn-pairplot/ "Seaborn Pairplot Examples"), the relationships that are possible between these attributes. It is marked out in a four by four matrix format with all the permutations of the four attributes. Where, in the grid, there is an overlpa of the attributes, i.e. a Petal Length versus Petal Length, we are shown a distribution of the values based on the species.
 
 In order to create the above, we have used the following code:
 
         sns.pairplot(IrisData, hue="species")
 
 
-Fisher, writing in Section "The analogy of partial regression", speaks of the analysis of the variance on portions of each species accountable by linear regression. To put this in a graphical representation, we have the two following displays. 
+
+Fisher, writing in the Section "The analogy of partial regression", speaks of the analysis of the variance on portions of each species accountable by linear regression. To put this in a graphical representation, we have the two following displays. 
 
 **Lmplot graph**
 ![Sepal Length plotted against Sepal Width](Images-from-Analysis/LinearRegression.png)
 
-As we can see from the image above, we have a simple plotting of the sepal length against the sepal width for all three species as called out in the legend.The graph very simply demonstrates the difference in the relationships between each sepacies and these components. Within each species, we can see that there is a corresponding line that runs from bottom left to top right, within the structure of the data for its respective species. Thia is the linear regression line that attempts to plot the relationship beteen the two variables.
+As we can see from the image above, we have a simple plotting of the sepal length against the sepal width for all three species as called out in the legend. The graph very simply demonstrates the difference in the relationships between each sepacies and these components. This has been represented by a scatter plot of the data.  Within each species, we can see that there is a corresponding line that runs from bottom left to top right, within the structure of the data for its respective species. This is the linear regression line that attempts to plot the relationship beteen the two variables, as detailed on the x and y axes.
 
 **Lmplot graph**
 ![Petal Length plotted against Petal Width](Images-from-Analysis/LinearRegression2.png)
@@ -154,17 +154,17 @@ As we can see from the image above, we have a simple plotting of the sepal lengt
 
 In the same manner as the description above, there is a relationship between the petal length and the petal width for each of the three species. This has the same characterisitics as the image that came before it, except that the trajectory for the line demonstrating linear regression, will be different because of the recorded values being different. 
 
+As detailed above, this is the code to be used to return the imagery.
+
 
         g = sns.lmplot(x="petal_length", y = "petal_width", hue = "species", height = 5, data=IrisData)
-
-As detailed above, this is the code to be used to return the imagery.
 
 
 ## Conclusion
 
-It is probably the most important takeaway from the paper itself, that Fisher highlights the difficulty in seperating out the difference between the Iris Virginica and the Iris Versicolor. The inability to distnguish the two apart can not be based solely, he says, "on these four measurements of a single flower taken on a plant growing wild." [Fisher, 1936](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Fisher") . That fisher himself has recorded this opinion in the paper is signiifcant.
+It is probably the most important takeaway from the paper itself, that Fisher highlights the difficulty in seperating out the difference between the Iris Virginica and the Iris Versicolor. The inability to distinguish the two apart can not be based solely, he says, "on these four measurements of a single flower taken on a plant growing wild." [Fisher, 1936](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x "Fisher") . That Fisher himself has recorded this opinion in the paper is signiifcant.
 
-One of the my biggest takeaways from this dataset is its' ability to stand above scrutiny over such a period of time. The dataset has adapted from a research into distinguishing species in the world of taxonomy, to being an important milestone in data clustering, as well Machine Learning amongst other areas of study.  
+One of the biggest takeaways from this dataset is its' ability to stand above scrutiny over such a period of time. The dataset has been adapted from a research into distinguishing species in the world of taxonomy, to being an important milestone in data clustering, as well Machine Learning amongst other areas of study.  
 
 It is a testament to the quality of the research that more than eighty years later, the mathematical principles that Fisher recorded are still in use and being applied to new areas of research. 
 
@@ -172,7 +172,7 @@ It is a testament to the quality of the research that more than eighty years lat
 According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook/ "Stepshot") there are some key callouts that needs to be adhered to when creating a runbook. Given the scale of our analysis, we may not need to hit on every marker, but nevertheless, we will try to provide as much structure as possible for readability purposes. 
 
  - Overview of Process
- - Software to be Downloaded / Required
+ - Required Software
  - Data Import Source
  - How to run the program from end to end. 
 
@@ -180,15 +180,15 @@ According to the website [Stepshot](https://stepshot.net/how-to-create-a-runbook
 
 When undertaking analysis for the first time, it is important to note that there are documentations that can be scanned through if any difficulty is experiecned, such as"A Whirlwind Tour of Python" as retrieved [O'Reilly Publications](https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf "pdf of the material").  
 
-### Software to be downloaded / Required
+### Required Software
 
-There is a requirement to download and install the Anaconda package to your computer. Once this installation has been completed, the user can then proceed to using the software. There will also be a requirement to operate from the viual studio code software.
+There is a requirement to download and install the Anaconda package to your computer. you will need to have access to Visual Studio code or a programem similar to it to undetake the analysis. Once these installations have been completed, the user can then proceed to using the software. 
 
 ### Data Import Source
 
 The source of the dataset is taken from the following website source, as hosted on Kaggle. 
 
-[MathNerd](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "MathNerd") has a copy of the file containing the data within this link. This csv file will needto be read into the python programme.
+[Arshid Aslam Baba](https://www.kaggle.com/arshid/iris-flower-dataset#IRIS.csv "Arshid Aslam Baba") has a copy of the file containing the data within this link. This csv file will need to be read into the python programme.
 
 ### How to run the programme from end to end
 
@@ -207,19 +207,18 @@ To read the csv file, we apply the following code in place.
 
         IrisData = pd.read_csv('IRIS.csv')
         print(IrisData)
-        AppendToFile(str(IrisData))
-
+        
 This will provide a simple text display to the terminal with each row and column displayed. 
 
-We are required to produce a text fiel for the variables that are produced in our analysis, so we create a function that will append the data to the text file that we are calling 'Output.txt'.
+We are required to produce a text file for the variables that are produced in our analysis, so we create a function that will append the data to the text file that we are calling 'Output.txt'.
 
         def AppendToFile(content):
         file = open("Output.txt", "a")
         file.write(content)
         file.close()
 
-The analysis that we are pulling from the data will take two formats. The first will be in the traditional tabular format, the second will be in visual, thanks to the libraries that we have imported.
-We are going to take an overview of the data into an array, a snapshot of the head and tail of the data, the tail. We are also going to extract an overview from a number of viewpoints, such as min, max, standard deviation, as well as a view of the data from each Species within the set. 
+The analysis that we are pulling from the data will take two formats. The first will be in the traditional tabular format, the second will be in visual, thanks to some of the libraries that we have imported.
+We are going to take extract an overview of the data and pull it into an array format, as well as a snapshot of the head and tail of the data. We are also going to extract an overview from a number of viewpoints, such as min, max, standard deviation, as well as a view of the data from each Species within the set. 
 
 
 The following will return all values for each instance in an array format.
@@ -227,7 +226,7 @@ The following will return all values for each instance in an array format.
         print(IrisData.values)
         AppendToFile(str(IrisData.values))
 
-This will provide a cursory glance at the material from the first 10 rows of data.
+This will provide a cursory glance at the material from the first 10 rows of data. Note too that the first line returned is called line 0. This is the case as the formatting allows the first piece of data to be in position 0.
         
         a = IrisData.head(10)
         print(a)
@@ -239,26 +238,36 @@ This will provide a cursory glance at the material from the last 10 rows of data
         print(b)
         AppendToFile(str(b))
 
-This has printed to the terminal the overall description of the dataset
+This will print to the terminal the overall description of the dataset. We will see this information categorised as:
+
+- Count
+- Mean
+- Standard Deviation
+- Minimum Value
+- value at 25% of sample
+- value at 50% of sample
+- value at 75% of sample
+- Maximum Value
         
         c = IrisData.describe
         print(c())
         AppendToFile(str(c()))
 
-This will allow us to view the individual names of each Iris
+This will allow us to view the individual names of each Iris flower.
         
         d = (IrisData.groupby('species').size())
         print(d)
         AppendToFile(str(d))
 
-All of these lines are indivudally run and are then subsequently appended to our 'Output.txt' file.
+All of these lines are individally run and are then subsequently appended to our 'Output.txt' file.
 
 #### Visualising the data
 
 We are going to use some of the functionality that is part of the libraries that we have imported from matplotlib as well as the seaborn library. 
-As we have seen in our analysis in the previo;us section of the text, there are some requirements for this project. From a visualisation perspective, we need to be able to run a histogram as well as a scatter plot. 
+As we have seen in our analysis in the previous section of the text, there are some requirements for this project to be considered. From a visualisation perspective, we need to be able to run a histogram as well as a scatter plot.
+The full work breakdown structure is detailed at the end of this file under the heading Project Management Overview. 
 
-This will allow us to see the first box plot of all three species based on sepal length
+If we take the following code, this will allow us to see the first box plot of all three species based on sepal length
         
         df = sns.load_dataset('iris')
         sns.boxplot(x = df["species"], y = df["sepal_length"])
@@ -268,6 +277,7 @@ This will allow us to see the first box plot of all three species based on sepal
         plt.show()
 
 This will allow us to see the first box plot of all three species based on sepal width
+
         df = sns.load_dataset('iris')
         sns.boxplot(x = df["species"], y = df["sepal_width"])
         plt.title('Comparison of the three Sepal Widths')
@@ -294,9 +304,9 @@ This will allow us to see the first box plot of all three species based on petal
         plt.show()
 
 The following code is in relation to the histogram requirements of the project.
-We are going to the create a histogram relationshop between our four attributes, the sepal length & width, as well as the petal length & width.
+We are going to the create a histogram relationship between our four attributes, the sepal length & width, as well as the petal length & width.
 
-This as a code will print a hist of the sepal length
+This as a code will print a histogram of the sepal length
 
         plt.figure(figsize = (6, 5)) 
         SepalLengthHist = IrisData["sepal_length"] 
@@ -304,9 +314,10 @@ This as a code will print a hist of the sepal length
         plt.title("Sepal Length in cm") 
         plt.xlabel("Sepal_Length_cm") 
         plt.ylabel("Count")
-        plt.savefig("SepalLengthHist.png")
+        plt.savefig("SepalLengthHist.png") 
+        # Please note that this line can be introdcued if there is a need to save each image created. It can be replicated across the remaining histograms.
 
-This as a code will print a hist of the sepal width
+This as a code will print a histogram of the sepal width
 
         plt.figure(figsize = (6, 5)) 
         SepalWidthHist = IrisData["sepal_width"] 
@@ -314,9 +325,9 @@ This as a code will print a hist of the sepal width
         plt.title("Sepal Width in cm") 
         plt.xlabel("Sepal_Width_cm") 
         plt.ylabel("Count")
-        plt.savefig("SepalWidthHist.png")
 
-This as a code will print a hist of the petal width
+
+This as a code will print a histogram of the petal width
 
         plt.figure(figsize = (6, 5)) 
         PetalWidthHist = IrisData["petal_width"] 
@@ -324,9 +335,9 @@ This as a code will print a hist of the petal width
         plt.title("Petal Width in cm") 
         plt.xlabel("Petal_Width_cm") 
         plt.ylabel("Count")
-        plt.savefig("PetalWidthHist.png")
+ 
 
-This as a code will print a hist of the petal length
+This as a code will print a histogram of the petal length
 
         plt.figure(figsize = (6, 5)) 
         PetalLengthHist = IrisData["petal_length"] 
@@ -334,12 +345,12 @@ This as a code will print a hist of the petal length
         plt.title("Petal Length in cm") 
         plt.xlabel("Petal_Length_cm") 
         plt.ylabel("Count")
-        plt.savefig("PetalLengthHist.png")
+ 
 
 The following code is in relation to the scatterplot requirements of the project.
 We are going to display the attributes against one another, as well as display the permutations of these instances using the seaborn library.
 
-This will return the sepal Length versus sepal width graph.
+This will return the sepal length versus sepal width graph.
 
         plt.scatter(IrisData["sepal_length"], IrisData["sepal_width"])
         plt.title("sepal length versus sepal width")
@@ -355,19 +366,22 @@ This will return the Petal Length versus Petal width graph.
         plt.ylabel("sepal width")
         plt.show()
 
-This will return a pairplot of all permutations in one graphic
+This will return a pairplot of all permutations in one graphic, as detailed in the ananlysis section of this project.
 
         sns.pairplot(IrisData, hue="species")
         plt.show()
 
 To demonstrate some of the linear functions in the dateset, leveraging the functionality of seaborn. 
+
         sns.set()
-        g = sns.lmplot(x="sepal_length", y = "sepal_width", hue = "species", height = 5, data=IrisData) # pairing sepal length against its width, for all species.
+        g = sns.lmplot(x="sepal_length", y = "sepal_width", hue = "species", height = 5, data=IrisData)
+        # pairing sepal length against its width, for all species.
         g.set_axis_labels("Sepal length (mm)", "Sepal width (mm)")
         plt.show()
 
         sns.set()
-        g = sns.lmplot(x="petal_length", y = "petal_width", hue = "species", height = 5, data=IrisData) # pairing sepal length against its width, for all species.
+        g = sns.lmplot(x="petal_length", y = "petal_width", hue = "species", height = 5, data=IrisData)
+        # pairing sepal length against its width, for all species.
         g.set_axis_labels("Petal length (mm)", "Petal width (mm)")
         plt.show()
 
@@ -541,14 +555,16 @@ URL          : https://www.oreilly.com/programming/free/files/a-whirlwind-tour-o
 
 
 ### Project Management Overview.txt
-This will act as a log of the project from commencement to cessation. the intent with this project will be to review the problem set and to detail a work breakdown structure within each breakdown, there is going to be smaller units of activity that need to be completed, and at this stage they will be shown in the structure of:
+This will act as a log of the project from commencement to cessation. The intent with this project will be to review the problem set and to detail a work breakdown structure. Within each breakdown, there is going to be smaller units of activity that need to be completed, and at this stage they will be shown in the structure of:
         
         Section 'X'
                 Activity '1'
                         Task '1.1'
                                 Sub-Task '1.1.1'
 
-This is the intended approach of the project, but it will be reviesed on an iterative basis as the project develops. There will be updtes communicated via the commit command when work is being saved to the repository. The first Breakdown will be in relaition to the problem set that has been detailed on the GMIT Site. For a copy of this brief, there is a pdf copy available in this repository for review. This document is intended as a complimentary document to the expected outcomes of the project. On reading the information that is contained in the project there are a number of areas that need to be reivewied. 
+This is the intended approach of the project, but it will be reviesed on an iterative basis as the project develops. There will be updates communicated via the commit command when work is being saved to the repository. The first breakdown will be in relation to the problem set that has been detailed on the GMIT Site. For a copy of this brief, there is a pdf copy available in this repository for review. This document is intended as a complimentary document to the expected outcomes of the project. On reading the information that is contained in the project there are a number of areas that need to be reviewed. 
+
+The status of completed will only be detailed once the sub-task or other nested activities are completed within the rolled up view.
 
 Project Breakdown:
 
@@ -568,7 +584,7 @@ Project Breakdown:
                 
         Section B) Expected Output:
                 4) Research from the information about Fishers dataset are to be commited to the READ.md file - completed.
-                        4.1) This file in its entirety will need to be added into the read.md file. - completed
+                        4.1) This file in its entirety will need to be added into the read.md file, upon completion of project and before communicating the git hub repository url. - completed
                 5) Download the data - completed
                         5.1) Add it to the repository - completed
                                 5.1.1) Reference to Section A - 1). - completed
@@ -576,7 +592,8 @@ Project Breakdown:
                         6.1) Output of each variable to a single text file - completed
                         6.2) Saves a histogram of each variable of png file type - completed
                         6.3) Outputs a scatter plot of each pair of variables.- completed
-                        6.4) Prepare all of the above as if were to be presented, but contained in the git hub repository, specifically in relation to the code. - completed 
+                        6.4) Prepare all of the above as if were to be presented - completed
+                                6.4.1) To be contained in the git hub repository, specifically in relation to the code. - completed 
 
         Section C) Minimum Acceptance standards breakdown per file to be submitted:
                 7) README
@@ -586,6 +603,7 @@ Project Breakdown:
                                 7.2.2) Data Import - completed
                                 7.2.3) How to run the programme from start to finish -completed 
                         7.3) Fill list of references for all sources for all aspects of the project. - completed
+                                7.3.1) to ensure cmpliance, bibliography in txt, md as well as docx file added. - completed
                 8) Python Script - completed
                 9) Summary Text File - completed
 
