@@ -489,15 +489,33 @@ Article Title: Multiple Linear Regression
 Website Title: https://seaborn.pydata.org/
 URL          : https://seaborn.pydata.org/examples/multiple_regression.html
 
-The above graphs were created with the assistance of, or refernce to the following sources:
-Boxplot graphs were created using partial code taken from [MatPlotLib Documentation](https://matplotlib.org/3.1.1/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py "Boxplots on Matplotlib")
-Prompt required for teh Seaborn Graph as referenced by [StackOverflow](https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up "Query with response")
-Reference material for the use and overview of Pandas as retrieved from [Scipy Lectures](http://scipy-lectures.org/packages/statistics/index.html "ScipyLeactures")
-Reference material for the execution of syntax structure in a scatterplt[Medium.com](https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342 "medium.com")
-Reference material for how to construct the Reference Guide on a GitHub Repository [Denis Carr](https://github.com/deniscarr/Fishers-Iris-dataset-project/blob/master/README.txt "Denis Carr")
-Reference material for initial analysis structure [RitRa](https://github.com/RitRa/Project2018-iris/blob/master/README.md "RitRa")
-Reference material for Histogram Structure [RealPython](https://realpython.com/python-histograms/ "RealPython")
+Article Title: Project 2018 Iris
+Website Title: https://github.com/
+URL          : https://github.com/RitRa/Project2018-iris/blob/master/README.md
 
+Article Title: Fishers Iris Data set
+Website Title: https://github.com/
+URL          : https://github.com/deniscarr/Fishers-Iris-dataset-project/blob/master/README.txt
+
+Article Title: Basic Analysis of the Iris Data set Using Python
+Website Title: https://medium.com/
+URL          : https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+
+Article Title: 3.1. Statistics in Python
+Website Title: http://scipy-lectures.org/
+URL          : http://scipy-lectures.org/packages/statistics/index.html
+
+Article Title: Seaborn Plots not showing up
+Website Title: https://stackoverflow.com
+URL          : https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up
+
+Article Title: Boxplot demo
+Website Title: https://matplotlib.org/
+URL          : https://matplotlib.org/3.1.1/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py
+
+Article Title: Python Histogram Plotting: NumPy, Matplotlib, Pandas & Seaborn
+Website Title: https://realpython.com
+URL          : https://realpython.com/python-histograms/
 
 
 #### Skills / Knowledge Gap:
@@ -523,9 +541,8 @@ URL          : https://www.oreilly.com/programming/free/files/a-whirlwind-tour-o
 
 
 ### Project Management Overview.txt
-This will act as a log of the project from commencement to cessation. 
-the intent with this project will be to review the problem set and to detail a work breakdown structure
-within each breakdown, there is going to be smaller units of activity that need to be completed, and at this stage they will be shown in the structure of:
+This will act as a log of the project from commencement to cessation. the intent with this project will be to review the problem set and to detail a work breakdown structure within each breakdown, there is going to be smaller units of activity that need to be completed, and at this stage they will be shown in the structure of:
+        
         Section 'X'
                 Activity '1'
                         Task '1.1'
